@@ -7,7 +7,7 @@ redirect_from:
   - /resume
 ---
 
-{% https://soumbane.github.io/files/Resume_Sept_17_2020.pdf %}
+{% CV https://soumbane.github.io/files/Resume_Sept_17_2020.pdf %}
 <embed src="https://soumbane.github.io/files/Resume_Sept_17_2020.pdf"/>
 
 Education
