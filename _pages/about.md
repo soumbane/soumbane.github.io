@@ -4,7 +4,7 @@ title: "Homepage"
 excerpt: "About me"
 author_profile: true
 redirect_from: 
-  - /homepage/
+  - /homepage
   - /about.html
 ---
 
