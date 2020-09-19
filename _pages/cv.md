@@ -8,6 +8,7 @@ redirect_from:
 ---
 
 {% include base_path %}
+<embed src="https://soumbane.github.io/files/Resume_Sept_17_2020.pdf"/>
 
 Education
 ======
