@@ -13,7 +13,7 @@ name                     : &name "Your Name"
 description              : &description "personal description"
 url                      : https://academicpages.github.io # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl                  : "" # the subpath of your site, e.g. "/blog"
-repository               : "academicpages/academicpages.github.io"
+repository               : "soumbane/soumbane.github.io"
 teaser                   :  # filename of teaser fallback teaser image placed in /images/, .e.g. "500x300.png"
 breadcrumbs              : false # true, false (default)
 words_per_minute         : 160
@@ -57,7 +57,7 @@ yandex_site_verification :
 
 # Social Sharing
 twitter:
-  username               : &twitter
+  username               : @soumyanil2010
 facebook:
   username               :
   app_id                 :
@@ -80,10 +80,10 @@ analytics:
 
 # Site Author
 author:
-  name             : "Your Sidebar Name"
+  name             : "Soumyanil Banerjee"
   avatar           : "profile.png"
-  bio              : "Your biography for the left-hand sidebar"
-  location         : "Location"
+  bio              : "Deep Learning, Machine Learning, Medical Imaging, Computer Vision; <b>Ph.D. Student</b> @ <a href="https://wayne.edu//">Wayne State University</a>, USA"
+  location         : "Detroit, MI <a href="https://www.google.com/maps/place/Detroit,+MI/@42.3523699,-83.3793885,10z/data=!3m1!4b1!4m5!3m4!1s0x8824ca0110cb1d75:0x5776864e35b9c4d2!8m2!3d42.331427!4d-83.0457538</a>"
   employer         :
   pubmed           : "https://www.ncbi.nlm.nih.gov/pubmed/?term=john+snow"
   googlescholar    : "http://yourfullgooglescholarurl.com"
