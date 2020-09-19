@@ -86,7 +86,7 @@ author:
   location         : '<a href="https://goo.gl/maps/LDgWmuxAf8xgLpty5">Detroit</a>, MI, USA.'
   employer         :
   pubmed           : 
-  Google Scholar   : "https://scholar.google.com/citations?hl=en&user=xaY1UPgAAAAJ"
+  googlescholar    : "https://scholar.google.com/citations?hl=en&user=xaY1UPgAAAAJ"
   email            :
   researchgate     :  # example: "https://www.researchgate.net/profile/yourprofile"
   uri              :
@@ -96,7 +96,7 @@ author:
   flickr           :
   facebook         :
   foursquare       :
-  GitHub           : "soumbane"
+  github           : "soumbane"
   google_plus      :
   keybase          :
   instagram        :
@@ -109,7 +109,7 @@ author:
   stackoverflow    : # http://stackoverflow.com/users/123456/username
   steam            :
   tumblr           :
-  Twitter          : "@soumyanil2010"
+  twitter          : "@soumyanil2010"
   vine             :
   weibo            :
   xing             :
