@@ -82,7 +82,7 @@ analytics:
 author:
   name             : "Soumyanil Banerjee"
   avatar           : "profile_picture.jpg"
-  bio              : <div align="justify">'Deep Learning, Machine Learning, Medical Image Processing, Computer Vision; CS Ph.D. Student @ <a href="https://wayne.edu/">Wayne State University</a>'</div>
+  bio              : '<div align="justify">Deep Learning, Machine Learning, Medical Image Processing, Computer Vision; CS Ph.D. Student @ <a href="https://wayne.edu/">Wayne State University</a></div>'
   location         : '<a href="https://goo.gl/maps/LDgWmuxAf8xgLpty5">Detroit, MI, USA.</a>'
   employer         :
   pubmed           : 
