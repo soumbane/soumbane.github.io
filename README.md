@@ -1,7 +1,6 @@
 <h1 font-size:40px;">Soumyanil Banerjee</h1>  
 
-Source Code repository for my personal website
-Link: soumbane.github.io
+Source Code repository for my personal website (Link: soumbane.github.io)
 
 Credits & Licenses
 This was forked (then detached) by Stuart Geiger from the Minimal Mistakes Jekyll Theme, which is © 2016 Michael Rose and released under the MIT License. 
