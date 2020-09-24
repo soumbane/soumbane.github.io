@@ -25,27 +25,18 @@ B.Tech in Electronics and Communications Engineering (GPA: 8.8/10.0)<br>
 
 WORK EXPERIENCE
 ======
-University of Massachusetts Medical School, Worcester, MA, USA - July 2016 – July 2018
+University of Massachusetts Medical School, Worcester, MA, USA - July 2016 – July 2018<br>
+Research Associate, Department of Radiology<br>
+Advisor: Dr Michael King<br>
+Project: Point Spread Function (PSF) Modeling for SPECT Image Reconstruction.<br>
 
-Research Associate, Department of Radiology
+Delphinus Medical Technologies, Plymouth, MI, USA - June 2015 – Aug 2015<br>
+Ultrasound Medical Imaging Intern<br>
+Advisor: John Seamans<br>
+Project: Advanced Statistical Lesion Analysis from Reconstructed Ultrasound Image Data.<br>
 
-Advisor: Dr Michael King
-
-Project: Point Spread Function (PSF) Modeling for SPECT Image Reconstruction.
-
-
-Delphinus Medical Technologies, Plymouth, MI, USA - June 2015 – Aug 2015
-
-Ultrasound Medical Imaging Intern
-
-Advisor: John Seamans
-
-Project: Advanced Statistical Lesion Analysis from Reconstructed Ultrasound Image Data.
-
-
-Cognizant Technology Solutions, Kolkata, India - Dec 2012 – Aug 2013
-
-Engineer Trainee in Information Technology Infrastructure Services. 
+Cognizant Technology Solutions, Kolkata, India - Dec 2012 – Aug 2013<br>
+Engineer Trainee in Information Technology Infrastructure Services.<br> 
 
 RESEARCH INTERESTS
 ======
