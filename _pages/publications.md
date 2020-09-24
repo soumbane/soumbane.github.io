@@ -1,11 +1,10 @@
 ---
 layout: archive
-title: "Publications"
+title: "Publications <a href="https://scholar.google.com/citations?hl=en&user=xaY1UPgAAAAJ">Google Scholar</a>"
 permalink: /publications/
 author_profile: true
 ---
 
-<a href="https://scholar.google.com/citations?hl=en&user=xaY1UPgAAAAJ">Google Scholar</a>
 
 PEER-REVIEWED JOURNAL PUBLICATIONS (IF – Impact Factor)
 ======
