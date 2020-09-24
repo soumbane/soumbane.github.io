@@ -56,6 +56,7 @@ PEER-REVIEWED JOURNAL PUBLICATIONS (IF – Impact Factor)
 
 <div align="justify">[2] Simulations of a multipinhole SPECT collimator for clinical dopamine transporter (DAT) imaging - Könik, A., De Beenhouwer, J., Mukherjee, J.M., Kalluri, K., Banerjee, S., Zeraatkar, N., Fromme, T. and King, M.A., IEEE transactions on radiation and plasma medical sciences, 2(5), pp.444-451, 2018.</div>
 <br>
+
 SELECTED PEER-REVIEWED CONFERENCE PUBLICATIONS
 ======
 <div align="justify">[1] Prediction of Language Impairments in Children Using Deep Relational Reasoning with DWI Data (Oral) - Banerjee, S., Dong, M., Lee, M.H., O'Hara, N., Asano, E. and Jeong, J.W., IEEE 17th International Symposium on Biomedical Imaging (ISBI) (pp. 1680-1684), 2020.</div> 
@@ -74,6 +75,7 @@ SELECTED PEER-REVIEWED CONFERENCE PUBLICATIONS
 
 <div align="justify">[8] Optimization of pinhole aperture size of a combined MPH/fanbeam SPECT system for I-123 DAT imaging - Könik, A., Mukherjee, J.M., Banerjee, S., De Beenhouwer, J., Zubal, G.I. and King, M.A., IEEE Nuclear Science Symposium, Medical Imaging Conference and Room-Temperature Semiconductor Detector Workshop (NSS/MIC/RTSD) (pp. 1-2), 2016.</div>
 <br>
+
 PROFESSIONAL SERVICE
 ======
 Journal Reviewer: Smart Health (2020) - ELSEVIER.
