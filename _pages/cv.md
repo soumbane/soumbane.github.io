@@ -11,24 +11,17 @@ Resume <a href="https://soumbane.github.io/files/Resume_Sept_21_2020_Full.pdf">[
 
 EDUCATION
 ======
-Wayne State University, Detroit, MI, USA - Aug 2018 – present
+Wayne State University, Detroit, MI, USA - Aug 2018 – present<br>
+PhD student in Computer Science (GPA: 3.96/4.0)<br>
+Advisor: Dr Ming Dong<br>
+Specialization: Deep Learning on graphs and applications in Medical Imaging.<br>
 
-PhD student in Computer Science (GPA: 3.96/4.0)
+University of Michigan, Ann Arbor, MI, USA - Aug 2014 – Dec 2015<br>
+M.S in Electrical and Computer Engineering (GPA: 3.441/4.0)<br>
+Specialization: Signal & Image Processing and Machine Learning<br>
 
-Advisor: Dr Ming Dong
-
-Specialization: Deep Learning on graphs and applications in Medical Imaging.
-
-<p>University of Michigan, Ann Arbor, MI, USA - Aug 2014 – Dec 2015
-
-M.S in Electrical and Computer Engineering (GPA: 3.441/4.0)
-
-Specialization: Signal & Image Processing and Machine Learning</p>
-
-
-West Bengal University of Technology, Kolkata, India - Aug 2008 – July 2012
-
-B.Tech in Electronics and Communications Engineering (GPA: 8.8/10.0)
+West Bengal University of Technology, Kolkata, India - Aug 2008 – July 2012<br>
+B.Tech in Electronics and Communications Engineering (GPA: 8.8/10.0)<br>
 
 WORK EXPERIENCE
 ======
