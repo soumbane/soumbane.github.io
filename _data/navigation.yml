@@ -6,15 +6,15 @@ main:
   - title: "Resume"
     url: /resume/
     
+  - title: "Projects"
+    url: /projects/   
+    
   - title: "Publications"
     url: /publications/
   
   - title: "Professional Service"
-    url: /professional_service/    
-    
-  - title: "Talks"
-    url: /talks/    
-        
+    url: /professional_service/       
+         
   - title: "Contact"
     url: /contact/
     
