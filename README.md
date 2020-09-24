@@ -1,4 +1,4 @@
-Soumyanil Banerjee
+<b> Soumyanil Banerjee </b>
 
 Source Code repository for my personal website
 Link: soumbane.github.io
