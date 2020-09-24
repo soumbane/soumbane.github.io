@@ -19,11 +19,13 @@ Advisor: Dr Ming Dong
 
 Specialization: Deep Learning on graphs and applications in Medical Imaging.
 
+
 University of Michigan, Ann Arbor, MI, USA - Aug 2014 – Dec 2015
 
 M.S in Electrical and Computer Engineering (GPA: 3.441/4.0)
 
 Specialization: Signal & Image Processing and Machine Learning
+
 
 West Bengal University of Technology, Kolkata, India - Aug 2008 – July 2012
 
@@ -39,6 +41,7 @@ Advisor: Dr Michael King
 
 Project: Point Spread Function (PSF) Modeling for SPECT Image Reconstruction.
 
+
 Delphinus Medical Technologies, Plymouth, MI, USA - June 2015 – Aug 2015
 
 Ultrasound Medical Imaging Intern
@@ -46,6 +49,7 @@ Ultrasound Medical Imaging Intern
 Advisor: John Seamans
 
 Project: Advanced Statistical Lesion Analysis from Reconstructed Ultrasound Image Data.
+
 
 Cognizant Technology Solutions, Kolkata, India - Dec 2012 – Aug 2013
 
