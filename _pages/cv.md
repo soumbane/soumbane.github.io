@@ -19,12 +19,11 @@ Advisor: Dr Ming Dong
 
 Specialization: Deep Learning on graphs and applications in Medical Imaging.
 
-
-University of Michigan, Ann Arbor, MI, USA - Aug 2014 – Dec 2015
+<p>University of Michigan, Ann Arbor, MI, USA - Aug 2014 – Dec 2015
 
 M.S in Electrical and Computer Engineering (GPA: 3.441/4.0)
 
-Specialization: Signal & Image Processing and Machine Learning
+Specialization: Signal & Image Processing and Machine Learning</p>
 
 
 West Bengal University of Technology, Kolkata, India - Aug 2008 – July 2012
