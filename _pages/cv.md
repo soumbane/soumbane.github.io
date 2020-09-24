@@ -7,7 +7,7 @@ redirect_from:
   - /resume
 ---
 
-<embed src="https://soumbane.github.io/files/Resume_Sept_17_2020.pdf"/>
+<a href="https://soumbane.github.io/files/Resume_Sept_21_2020_Full.pdf">PDF</a>
 
 Education
 ======
