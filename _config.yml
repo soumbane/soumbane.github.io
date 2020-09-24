@@ -7,7 +7,7 @@
 
 # Site Settings
 locale                   : "en-US"
-title                    : "Welcome to my personal webpage"
+title                    : "Welcome to my website"
 title_separator          : "-"
 name                     : &name "Soumyanil Banerjee"
 description              : &description "personal description"
