@@ -12,30 +12,43 @@ Resume <a href="https://soumbane.github.io/files/Resume_Sept_21_2020_Full.pdf">[
 EDUCATION
 ======
 Wayne State University, Detroit, MI, USA - Aug 2018 – present
+
 PhD student in Computer Science (GPA: 3.96/4.0)
+
 Advisor: Dr Ming Dong
+
 Specialization: Deep Learning on graphs and applications in Medical Imaging.
 
 University of Michigan, Ann Arbor, MI, USA - Aug 2014 – Dec 2015
+
 M.S in Electrical and Computer Engineering (GPA: 3.441/4.0)
+
 Specialization: Signal & Image Processing and Machine Learning
 
 West Bengal University of Technology, Kolkata, India - Aug 2008 – July 2012
+
 B.Tech in Electronics and Communications Engineering (GPA: 8.8/10.0)
 
 WORK EXPERIENCE
 ======
 University of Massachusetts Medical School, Worcester, MA, USA - July 2016 – July 2018
+
 Research Associate, Department of Radiology
+
 Advisor: Dr Michael King
+
 Project: Point Spread Function (PSF) Modeling for SPECT Image Reconstruction.
 
 Delphinus Medical Technologies, Plymouth, MI, USA - June 2015 – Aug 2015
+
 Ultrasound Medical Imaging Intern
+
 Advisor: John Seamans
+
 Project: Advanced Statistical Lesion Analysis from Reconstructed Ultrasound Image Data.
 
 Cognizant Technology Solutions, Kolkata, India - Dec 2012 – Aug 2013
+
 Engineer Trainee in Information Technology Infrastructure Services. 
 
 RESEARCH INTERESTS
