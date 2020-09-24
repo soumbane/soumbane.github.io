@@ -11,7 +11,7 @@ PEER-REVIEWED JOURNAL PUBLICATIONS (IF – Impact Factor)
 ======
 <div align="justify">[1] Deep Relational Reasoning for the Prediction of Language Impairment and Postoperative Seizure Outcome Using Preoperative DWI Connectome Data of Children with Focal Epilepsy - Banerjee, S., Dong, M., Lee, M.H., O’Hara, N., Juhasz, C., Asano, E., Jeong, J.W., IEEE transactions on medical imaging (IF: 6.685), 2020. (Under Review).</div>
 
-<div align="justify">[2] Simulations of a multipinhole SPECT collimator for clinical dopamine transporter (DAT) imaging - Könik, A., De Beenhouwer, J., Mukherjee, J.M., Kalluri, K., Banerjee, S., Zeraatkar, N., Fromme, T. and King, M.A., IEEE transactions on radiation and plasma medical sciences, 2(5), pp.444-451, 2018. [<a href="soumbane.github.io/files/Simulations_Multipinhole.pdf">paper</a>]</div>
+<div align="justify">[2] Simulations of a multipinhole SPECT collimator for clinical dopamine transporter (DAT) imaging - Könik, A., De Beenhouwer, J., Mukherjee, J.M., Kalluri, K., Banerjee, S., Zeraatkar, N., Fromme, T. and King, M.A., IEEE transactions on radiation and plasma medical sciences, 2(5), pp.444-451, 2018. [<a href="http://soumbane.github.io/files/Simulations_Multipinhole.pdf">paper</a>]</div>
 
 SELECTED PEER-REVIEWED CONFERENCE PUBLICATIONS
 ======
