@@ -9,7 +9,7 @@ author_profile: true
 
 - Emails:
     - <a href="mailto:s.banerjee@wayne.edu">s.banerjee@wayne.edu</a> (Academic)
-    - <a href="mailto:soumya_nil@gmail.com">soumya_nil@gmail.com</a> (Personal)
+    - <a href="mailto:soumya_nil@gmail.com">soumya_nil@yahoo.com</a> (Personal)
 
 - Postal Address:
     27200 Franklin Rd. Apt 502,<br>
