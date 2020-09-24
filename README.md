@@ -1,5 +1,4 @@
-<h1 font-size:40px;">Heading</h1>  
-<b> Soumyanil Banerjee </b>
+<h1 font-size:40px;">Soumyanil Banerjee</h1>  
 
 Source Code repository for my personal website
 Link: soumbane.github.io
