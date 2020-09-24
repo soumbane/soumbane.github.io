@@ -54,8 +54,7 @@ PEER-REVIEWED JOURNAL PUBLICATIONS (IF – Impact Factor)
 ======
 <div align="justify">[1] Deep Relational Reasoning for the Prediction of Language Impairment and Postoperative Seizure Outcome Using Preoperative DWI Connectome Data of Children with Focal Epilepsy - Banerjee, S., Dong, M., Lee, M.H., O’Hara, N., Juhasz, C., Asano, E., Jeong, J.W., IEEE transactions on medical imaging (IF: 6.685), 2020. (Under Review).</div>
 
-<div align="justify">[2] Simulations of a multipinhole SPECT collimator for clinical dopamine transporter (DAT) imaging - Könik, A., De Beenhouwer, J., Mukherjee, J.M., Kalluri, K., Banerjee, S., Zeraatkar, N., Fromme, T. and King, M.A., IEEE transactions on radiation and plasma medical sciences, 2(5), pp.444-451, 2018.</div>
-<br>
+<div align="justify">[2] Simulations of a multipinhole SPECT collimator for clinical dopamine transporter (DAT) imaging - Könik, A., De Beenhouwer, J., Mukherjee, J.M., Kalluri, K., Banerjee, S., Zeraatkar, N., Fromme, T. and King, M.A., IEEE transactions on radiation and plasma medical sciences, 2(5), pp.444-451, 2018.</div><br>
 
 SELECTED PEER-REVIEWED CONFERENCE PUBLICATIONS
 ======
@@ -73,8 +72,7 @@ SELECTED PEER-REVIEWED CONFERENCE PUBLICATIONS
 
 <div align="justify">[7] Stepwise linear regression modeling of the point spread functions of a multi-pinhole SPECT camera for I-123 DaTscan imaging - Mukherjee, J.M., Banerjee, S., Konik, A., Kallur, K.S., Furenlid, L.R. and King, M.A., IEEE Nuclear Science Symposium, Medical Imaging Conference and Room-Temperature Semiconductor Detector Workshop (NSS/MIC/RTSD) (pp. 1-3), 2016.</div>
 
-<div align="justify">[8] Optimization of pinhole aperture size of a combined MPH/fanbeam SPECT system for I-123 DAT imaging - Könik, A., Mukherjee, J.M., Banerjee, S., De Beenhouwer, J., Zubal, G.I. and King, M.A., IEEE Nuclear Science Symposium, Medical Imaging Conference and Room-Temperature Semiconductor Detector Workshop (NSS/MIC/RTSD) (pp. 1-2), 2016.</div>
-<br>
+<div align="justify">[8] Optimization of pinhole aperture size of a combined MPH/fanbeam SPECT system for I-123 DAT imaging - Könik, A., Mukherjee, J.M., Banerjee, S., De Beenhouwer, J., Zubal, G.I. and King, M.A., IEEE Nuclear Science Symposium, Medical Imaging Conference and Room-Temperature Semiconductor Detector Workshop (NSS/MIC/RTSD) (pp. 1-2), 2016.</div><br>
 
 PROFESSIONAL SERVICE
 ======
