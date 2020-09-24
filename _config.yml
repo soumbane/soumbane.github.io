@@ -82,7 +82,7 @@ analytics:
 author:
   name             : "Soumyanil Banerjee"
   avatar           : "profile_picture.jpg"
-  bio              : 'Deep Learning, Machine Learning, Medical Image Processing, Computer Vision; CS Ph.D. Student @ <a href="https://wayne.edu/">Wayne State University</a>'
+  bio              : 'Deep Learning, Machine Learning, Medical Image Processing, Graph Representation Learning, Computer Vision; CS Ph.D. Student @ <a href="https://wayne.edu/">Wayne State University</a>'
   location         : '<a href="https://goo.gl/maps/LDgWmuxAf8xgLpty5">Detroit, MI, USA.</a>'
   employer         :
   pubmed           : 
@@ -109,7 +109,7 @@ author:
   stackoverflow    : # http://stackoverflow.com/users/123456/username
   steam            :
   tumblr           :
-  twitter          : "@soumyanil2010"
+  twitter          : 
   vine             :
   weibo            :
   xing             :
