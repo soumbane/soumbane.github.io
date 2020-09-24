@@ -12,6 +12,6 @@ author_profile: true
     - <a href="mailto:soumya_nil@gmail.com">soumya_nil@gmail.com</a> (Personal)
 
 - Postal Address:
-    27200 Franklin Rd. Apt 502,
-    Southfield, MI - 48034
+    27200 Franklin Rd. Apt 502,<br>
+    Southfield, MI - 48034<br>
     USA.
