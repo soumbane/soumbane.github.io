@@ -13,7 +13,10 @@ main:
     url: /publications/
   
   - title: "Professional Service"
-    url: /professional_service/       
+    url: /professional_service/ 
+    
+  - title: "Teaching"
+    url: /teaching/  
          
   - title: "Contact"
     url: /contact/
