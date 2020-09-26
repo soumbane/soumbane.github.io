@@ -13,6 +13,7 @@ author_profile: true
 
 <div align="justify">[2] Simulations of a multipinhole SPECT collimator for clinical dopamine transporter (DAT) imaging - Könik, A., De Beenhouwer, J., Mukherjee, J.M., Kalluri, K., Banerjee, S., Zeraatkar, N., Fromme, T. and King, M.A., IEEE transactions on radiation and plasma medical sciences, 2(5), pp.444-451, 2018. [<a href="http://soumbane.github.io/files/Simulations_Multipinhole.pdf">PDF</a>]</div>
 
+
 # SELECTED PEER-REVIEWED CONFERENCE PUBLICATIONS
 
 <div align="justify">[1] Prediction of Language Impairments in Children Using Deep Relational Reasoning with DWI Data (Oral) - Banerjee, S., Dong, M., Lee, M.H., O'Hara, N., Asano, E. and Jeong, J.W., IEEE 17th International Symposium on Biomedical Imaging (ISBI) (pp. 1680-1684), 2020. [<a href="http://soumbane.github.io/files/Prediction_of_Language_Impairments.pdf">PDF</a>]</div> 
