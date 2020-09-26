@@ -76,33 +76,33 @@ OS: Linux, Windows.
 
 # PROFESSIONAL SERVICE
 
-Journal Reviewer: Smart Health (2020) - ELSEVIER.
+- Journal Reviewer: Smart Health (2020) - ELSEVIER.
 
-Conference Reviewer: Information Reuse and Integration for Data Science (IEEE IRI 2020), Connected Health: Applications, Systems and Engineering Technologies (IEEE/ACM CHASE 2020).
+- Conference Reviewer: Information Reuse and Integration for Data Science (IEEE IRI 2020), Connected Health: Applications, Systems and Engineering Technologies (IEEE/ACM CHASE 2020).
 
-Technical Program Committee: IEEE IRI 2020, IEEE/ACM CHASE 2020.
+- Technical Program Committee: IEEE IRI 2020, IEEE/ACM CHASE 2020.
 
 # TALKS
 
 Point Spread Function (PSF) Modeling for SPECT Image Reconstruction 
 
-•	Massachusetts General Hospital, MA, USA (2018).
+- Massachusetts General Hospital, MA, USA (2018).
 
-•	University of Arizona, AZ, USA (2017).
+- University of Arizona, AZ, USA (2017).
 
 # AWARDS & HONORS
 
-•	Conference Travel Award (2020) – IEEE ISBI.
+- Conference Travel Award (2020) – IEEE ISBI.
 
-•	Graduate Student Professional Travel Award (2020) – Wayne State University.
+- Graduate Student Professional Travel Award (2020) – Wayne State University.
 
-•	Thomas C. Rumble University Graduate Fellowship (2018-2019), Wayne State University.
+- Thomas C. Rumble University Graduate Fellowship (2018-2019), Wayne State University.
 
-•	University of Michigan Small Company Internship Award (Jun – Aug 2015).
+- University of Michigan Small Company Internship Award (Jun – Aug 2015).
 
 # TEACHING
 
-•	Fall 2018: (CSC 6860) - Guest Lecturer, Digital Image Processing & Analysis, Wayne State University.
+- Fall 2018: (CSC 6860) - Guest Lecturer, Digital Image Processing & Analysis, Wayne State University.
   
 # PROFESSIONAL MEMBERSHIPS
 
