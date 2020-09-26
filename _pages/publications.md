@@ -7,14 +7,14 @@ author_profile: true
 
 <a href="https://scholar.google.com/citations?hl=en&user=xaY1UPgAAAAJ">Google Scholar</a>
 
-PEER-REVIEWED JOURNAL PUBLICATIONS (IF – Impact Factor)
-======
+# PEER-REVIEWED JOURNAL PUBLICATIONS (IF – Impact Factor)
+
 <div align="justify">[1] Deep Relational Reasoning for the Prediction of Language Impairment and Postoperative Seizure Outcome Using Preoperative DWI Connectome Data of Children with Focal Epilepsy - Banerjee, S., Dong, M., Lee, M.H., O’Hara, N., Juhasz, C., Asano, E., Jeong, J.W., IEEE transactions on medical imaging (IF: 6.685), 2020. (Under Review).</div>
 
 <div align="justify">[2] Simulations of a multipinhole SPECT collimator for clinical dopamine transporter (DAT) imaging - Könik, A., De Beenhouwer, J., Mukherjee, J.M., Kalluri, K., Banerjee, S., Zeraatkar, N., Fromme, T. and King, M.A., IEEE transactions on radiation and plasma medical sciences, 2(5), pp.444-451, 2018. [<a href="http://soumbane.github.io/files/Simulations_Multipinhole.pdf">pdf</a>]</div>
 
-SELECTED PEER-REVIEWED CONFERENCE PUBLICATIONS
-======
+# SELECTED PEER-REVIEWED CONFERENCE PUBLICATIONS
+
 <div align="justify">[1] Prediction of Language Impairments in Children Using Deep Relational Reasoning with DWI Data (Oral) - Banerjee, S., Dong, M., Lee, M.H., O'Hara, N., Asano, E. and Jeong, J.W., IEEE 17th International Symposium on Biomedical Imaging (ISBI) (pp. 1680-1684), 2020. [<a href="http://soumbane.github.io/files/Prediction_of_Language_Impairments.pdf">pdf</a>]</div> 
 
 <div align="justify">[2] Point spread function modeling for pinhole SPECT imaging which accounts for aperture size and orientation (SNMMI Conference) (Oral) - Banerjee, S., Auer, B., Zeraatkar, N., Konik, A., Kalluri, K., Zubal, G., Furenlid, L. and King, M., Journal of Nuclear Medicine, 59(supplement 1), pp.360-360, 2018. [<a href="http://jnm.snmjournals.org/content/59/supplement_1/360">pdf</a>]</div>
