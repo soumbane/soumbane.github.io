@@ -17,9 +17,9 @@ redirect_from:
 
 # Latest News and Updates !!
 
-- <div align="justify">Invited to serve on the technical program committee of <a href="https://conferences.computer.org/chase2020/index.html">IEEE/ACM Conference on Connected Health: Applications, Systems and Engineering Technologies</a> (IEEE/ACM CHASE), 2020.</div>
-- <div align="justify">Invited to serve on the program committee of <a href="https://homepages.uc.edu/~niunn/IRI20/index.html">IEEE Conference on Information Reuse and Integration for Data Science</a> (IEEE IRI), 2020.</div>
+- <div align="justify">Invited to serve on the technical program committee of <a href="https://conferences.computer.org/chase2020/index.html">Conference on Connected Health: Applications, Systems and Engineering Technologies</a> (IEEE/ACM CHASE), 2020.</div>
+- <div align="justify">Invited to serve on the program committee of <a href="https://homepages.uc.edu/~niunn/IRI20/index.html">Conference on Information Reuse and Integration for Data Science</a> (IEEE IRI), 2020.</div>
 - <div align="justify">Received Conference Travel Award, IEEE ISBI, 2020.</div>
 - <div align="justify">Received Graduate Student Professional Travel Award, Wayne State University, 2020.</div>
-- <div align="justify">Paper on "Prediction of Language Impairments in Children Using Deep Relational Reasoning with DWI Data" accepted @ <a href="http://2020.biomedicalimaging.org/">IEEE International Symposium on Biomedical Imaging</a> (ISBI), 2020.</div>
-- <div align="justify">Got Thomas C. Rumble University Graduate Fellowship, Wayne State University, 2020.</div>
+- <div align="justify">Paper on "Prediction of Language Impairments in Children Using Deep Relational Reasoning with DWI Data" accepted @ <a href="http://2020.biomedicalimaging.org/">International Symposium on Biomedical Imaging</a> (IEEE ISBI), 2020.</div>
+- <div align="justify">Got Thomas C. Rumble University Graduate Fellowship, Wayne State University, 2018.</div>
