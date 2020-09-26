@@ -17,8 +17,7 @@ These graph representation algorithms are also used to identify the Seizure Onse
 which would help the neurosurgeon perform accurate resective surgeries. The stored weights obtained from the
 trained deep learning algorithms are used in identifying the regions of the brain that cause the epileptic seizures,
 by leveraging gradient-based saliency and class activation maps.</div>
-
-
+<br>
 # University of Massachusetts Medical School
 
 <div align="justify">I worked with images obtained from Single Photon Emission Computed Tomography (SPECT) systems and developed machine learning
