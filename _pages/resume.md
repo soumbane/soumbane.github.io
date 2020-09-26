@@ -1,10 +1,8 @@
 ---
 layout: archive
-title: "Resume"
+title: ""
 permalink: /resume/
 author_profile: true
-redirect_from:
-  - /resume
 ---
 
 Resume [<a href="https://soumbane.github.io/files/Resume_Sept_21_2020_Full.pdf">PDF</a>]
