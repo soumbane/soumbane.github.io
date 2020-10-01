@@ -1,0 +1,838 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+"http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html>
+<head>
+  <!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-60320583-2"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'UA-60320583-2');
+</script>
+
+<title>Shubham Tulsiani - Home</title>
+<link rel="stylesheet" type="text/css" href="style.css">
+
+<script type="text/javascript" src="js/hidebib.js"></script>
+
+</head>
+<body>
+
+<div class="section">
+<h1>Shubham Tulsiani</h1>
+</div>
+<hr>
+
+<div class="section">
+<table>
+  <tr valign="top"> <td style="width: 600px; vertical-align: top;">
+  I will be joining the CMU School of Computer Science as an Assistant Professor in Fall 2021. I am currently a Research Scientist at <a href = "https://research.fb.com/category/facebook-ai-research/">FAIR</a>, Pittsburgh working with <a href = "https://www.cs.cmu.edu/~abhinavg/">Abhinav Gupta</a>. I previously graduated from UC, Berkeley where I was advised by <a href = "http://www.eecs.berkeley.edu/~malik">Jitendra Malik</a>, and also frequently collaborated with <a href = "http://www.eecs.berkeley.edu/~efros">Alyosha Efros</a>.
+  <p><br></p>
+  I am interested in building perception systems that can infer the spatial and physical structure of the world they observe. Please see <a href = "https://youtu.be/lAZyzI-_omM?t=108">this recent talk</a> for an overview.
+  <p><br></p>
+  <p>
+    <a href="javascript:toggleblock('email')">email</a> | <a href="https://github.com/shubhtuls">github</a>  | <a href="https://www2.eecs.berkeley.edu/Pubs/TechRpts/2018/EECS-2018-93.html">thesis</a> | <a href="https://scholar.google.com/citations?user=06rffEkAAAAJ&hl=en">google scholar</a>
+  </p>
+  <pre xml:space="preserve" id="email" style="font-size: 12px">
+
+shubhtuls AT {cmu.edu (preferred), fb.com}
+  </pre>
+  <script xml:space="preserve" language="JavaScript">
+  hideblock('email');
+  </script>
+  </td>
+
+  <td width="400"><img src="img.jpg" alt="My picture" height=250 align="right"/></td>
+    </tr>
+  </table>
+</div>
+
+<div class="section">
+<h2> Publications </h2><br><div class="year_heading"><br>2020<hr width="220px" align="left"></div>
+<!--------------------------------------------------------------------------->
+<div class="paper" id="cvpr20acsm">
+<img class="paper" src="figures/cvpr20acsm.png" />
+<p> <strong style="color:red">[New]</strong> <b id="papertitle">Articulation-aware Canonical Surface Mapping</b> <br/> 
+Nilesh Kulkarni, Abhinav Gupta, David Fouhey, <strong>Shubham Tulsiani</strong> <br/> 
+CVPR, 2020 <br/> 
+<a href="https://arxiv.org/pdf/2004.00614.pdf">pdf </a>  &nbsp <a href="https://nileshkulkarni.github.io/acsm/">project page </a>  &nbsp <a href="javascript:toggleblock('cvpr20acsmAbs')">abstract </a>  &nbsp <a href="javascript:toggleblock('cvpr20acsmBib')">bibtex </a>  &nbsp <a href="https://youtu.be/qgVwjkO2ltw">video </a>  &nbsp <a href="http://www.github.com/nileshkulkarni/acsm/">code </a> </p>
+<div class="papermeta" id="cvpr20acsmMeta">
+<em id="cvpr20acsmAbs">We tackle the tasks of: 1) predicting a Canonical Surface Mapping (CSM) that indicates the mapping from 2D pixels to corresponding points on a canonical template shape , and 2) inferring the articulation and pose of the template corresponding to the input image. While previous approaches rely on leveraging keypoint supervision for learning, we present an approach that can learn without such annotations. Our key insight is that these tasks are geometrically related, and we can obtain supervisory signal via enforcing consistency among the predictions. We present results across a diverse set of animate object categories, showing that our method can learn articulation and CSM prediction from image collections using only foreground mask labels for training. We empirically show that allowing articulation helps learn more accurate CSM prediction, and that enforcing the consistency with predicted CSM is similarly critical for learning meaningful articulation.</em>
+<pre xml:space="preserve" id="cvpr20acsmBib">
+
+@inProceedings{kulkarni2020acsm,
+  title={Articulation-aware Canonical Surface Mapping},
+  author={Kulkarni, Nilesh and Gupta, Abhinav and Fouhey, David and Tulsiani, Shubham},
+  year={2020},
+  booktitle={Computer Vision and Pattern Recognition (CVPR)}
+}</pre></td>
+<script language="javascript" type="text/javascript" xml:space="preserve">
+hideblock('cvpr20acsmAbs');
+hideblock('cvpr20acsmBib');
+</script>
+</div>
+</div>
+<!--------------------------------------------------------------------------->
+
+<!--------------------------------------------------------------------------->
+<div class="paper" id="cvpr20force">
+<img class="paper" src="figures/cvpr20force.png" />
+<p> <strong style="color:red">[New]</strong> <b id="papertitle">Use the Force, Luke! Learning to Predict Physical Forces by Simulating Effects</b> <br/> 
+Kiana Ehsani, <strong>Shubham Tulsiani</strong>, Saurabh Gupta, Ali Farhadi, Abhinav Gupta <br/> 
+CVPR, 2020 <br/> 
+<a href="https://arxiv.org/pdf/2003.12045.pdf">pdf </a>  &nbsp <a href="https://ehsanik.github.io/forcecvpr2020/">project page </a>  &nbsp <a href="javascript:toggleblock('cvpr20forceAbs')">abstract </a>  &nbsp <a href="javascript:toggleblock('cvpr20forceBib')">bibtex </a> </p>
+<div class="papermeta" id="cvpr20forceMeta">
+<em id="cvpr20forceAbs">When we humans look at a video of human-object interaction, we can not only infer what is happening but we can even extract actionable information and imitate those interactions. On the other hand, current recognition or geometric approaches lack the physicality of action representation. In this paper, we take a step towards more physical understanding of actions. We address the problem of inferring contact points and the physical forces from videos of humans interacting with objects. One of the main challenges in tackling this problem is obtaining ground-truth labels for forces. We sidestep this problem by instead using a physics simulator for supervision. Specifically, we use a simulator to predict effects, and enforce that estimated forces must lead to same effect as depicted in the video. Our quantitative and qualitative results show that (a) we can predict meaningful forces from videos whose effects lead to accurate imitation of the motions observed, (b) by jointly optimizing for contact point and force prediction, we can improve the performance on both tasks in comparison to independent training, and (c) we can learn a representation from this model that generalizes to novel objects using few shot examples.</em>
+<pre xml:space="preserve" id="cvpr20forceBib">
+
+@inProceedings{ehsani2020force,
+  title={Use the Force, Luke! Learning to Predict Physical Forces by Simulating Effects},
+  author={Ehsani, Kiana and  Tulsiani, Shubham and Gupta, Saurabh and Farhadi, Ali and Gupta, Abhinav},
+  year={2020},
+  booktitle={Computer Vision and Pattern Recognition (CVPR)}
+}</pre></td>
+<script language="javascript" type="text/javascript" xml:space="preserve">
+hideblock('cvpr20forceAbs');
+hideblock('cvpr20forceBib');
+</script>
+</div>
+</div>
+<!--------------------------------------------------------------------------->
+
+<!--------------------------------------------------------------------------->
+<div class="paper" id="iclr20synergy">
+<img class="paper" src="figures/iclr20synergy.png" />
+<p> <strong style="color:red">[New]</strong> <b id="papertitle">Intrinsic Motivation for Encouraging Synergistic Behavior</b> <br/> 
+Rohan Chitnis, <strong>Shubham Tulsiani</strong>, Saurabh Gupta, Abhinav Gupta <br/> 
+ICLR, 2020 <br/> 
+<a href="https://openreview.net/pdf?id=SJleNCNtDH">pdf </a>  &nbsp <a href="https://sites.google.com/view/iclr2020-synergistic">project page </a>  &nbsp <a href="javascript:toggleblock('iclr20synergyAbs')">abstract </a>  &nbsp <a href="javascript:toggleblock('iclr20synergyBib')">bibtex </a> </p>
+<div class="papermeta" id="iclr20synergyMeta">
+<em id="iclr20synergyAbs">We study the role of intrinsic motivation as an exploration bias for reinforcement learning in sparse-reward synergistic tasks, which are tasks where multiple agents must work together to achieve a goal they could not individually. Our key idea is that a good guiding principle for intrinsic motivation in synergistic tasks is to take actions which affect the world in ways that would not be achieved if the agents were acting on their own. Thus, we propose to incentivize agents to take (joint) actions whose effects cannot be predicted via a composition of the predicted effect for each individual agent. We study two instantiations of this idea, one based on the true states encountered, and another based on a dynamics model trained concurrently with the policy. While the former is simpler, the latter has the benefit of being analytically differentiable with respect to the action taken. We validate our approach in robotic bimanual manipulation tasks with sparse rewards; we find that our approach yields more efficient learning than both 1) training with only the sparse reward and 2) using the typical surprise-based formulation of intrinsic motivation, which does not bias toward synergistic behavior.</em>
+<pre xml:space="preserve" id="iclr20synergyBib">
+
+@inproceedings{chitnis20synergy,
+  title={Intrinsic Motivation for Encouraging Synergistic Behavior},
+  author={Chitnis, Rohan and Tulsiani, Shubham and Gupta, Saurabh and Gupta, Abhinav},
+  booktitle={ICLR},
+  year={2020}
+}</pre></td>
+<script language="javascript" type="text/javascript" xml:space="preserve">
+hideblock('iclr20synergyAbs');
+hideblock('iclr20synergyBib');
+</script>
+</div>
+</div>
+<!--------------------------------------------------------------------------->
+
+<!--------------------------------------------------------------------------->
+<div class="paper" id="iclr20motor">
+<img class="paper" src="figures/iclr20motor.png" />
+<p> <strong style="color:red">[New]</strong> <b id="papertitle">Discovering Motor Programs by Recomposing Demonstrations</b> <br/> 
+Tanmay Shankar, <strong>Shubham Tulsiani</strong>, Lerrel Pinto, Abhinav Gupta <br/> 
+ICLR, 2020 <br/> 
+<a href="https://openreview.net/pdf?id=rkgHY0NYwr">pdf </a>  &nbsp <a href="javascript:toggleblock('iclr20motorAbs')">abstract </a>  &nbsp <a href="javascript:toggleblock('iclr20motorBib')">bibtex </a> </p>
+<div class="papermeta" id="iclr20motorMeta">
+<em id="iclr20motorAbs">We learn a space of motor primitives from unannotated robot demonstrations, and show these primitives are semantically meaningful and can be composed for new robot tasks.
+Abstract: In this paper, we present an approach to learn recomposable motor primitives across large-scale and diverse manipulation demonstrations. Current approaches to decomposing demonstrations into primitives often assume manually defined primitives and bypass the difficulty of discovering these primitives. On the other hand, approaches in primitive discovery put restrictive assumptions on the complexity of a primitive, which limit applicability to narrow tasks. Our approach attempts to circumvent these challenges by jointly learning both the underlying motor primitives and recomposing these primitives to form the original demonstration. Through constraints on both the parsimony of primitive decomposition and the simplicity of a given primitive, we are able to learn a diverse set of motor primitives, as well as a coherent latent representation for these primitives. We demonstrate, both qualitatively and quantitatively, that our learned primitives capture semantically meaningful aspects of a demonstration. This allows us to compose these primitives in a hierarchical reinforcement learning setup to efficiently solve robotic manipulation tasks like reaching and pushing.</em>
+<pre xml:space="preserve" id="iclr20motorBib">
+
+@inproceedings{shankar20motor,
+  title={Discovering Motor Programs by Recomposing Demonstrations},
+  author={Shankar, Tanmay and Tulsiani, Shubham and Pinto, Lerrel and Gupta, Abhinav},
+  booktitle={ICLR},
+  year={2020}
+}</pre></td>
+<script language="javascript" type="text/javascript" xml:space="preserve">
+hideblock('iclr20motorAbs');
+hideblock('iclr20motorBib');
+</script>
+</div>
+</div>
+<!--------------------------------------------------------------------------->
+
+<!--------------------------------------------------------------------------->
+<div class="paper" id="icra20schema">
+<img class="paper" src="figures/icra20schema.png" />
+<p> <strong style="color:red">[New]</strong> <b id="papertitle">Efficient Bimanual Manipulation using Learned Task Schemas</b> <br/> 
+Rohan Chitnis, <strong>Shubham Tulsiani</strong>, Saurabh Gupta, Abhinav Gupta <br/> 
+ICRA, 2020 <br/> 
+<a href="https://arxiv.org/pdf/1909.13874.pdf">preprint </a>  &nbsp <a href="javascript:toggleblock('icra20schemaAbs')">abstract </a>  &nbsp <a href="javascript:toggleblock('icra20schemaBib')">bibtex </a>  &nbsp <a href="https://www.youtube.com/watch?v=TBUEHk37a64">video </a> </p>
+<div class="papermeta" id="icra20schemaMeta">
+<em id="icra20schemaAbs">We address the problem of effectively composing skills to solve sparse-reward tasks in the real world. Given a set of parameterized skills (such as exerting a force or doing a top grasp at a location), our goal is to learn policies that invoke these skills to efficiently solve such tasks. Our insight is that for many tasks, the learning process can be decomposed into learning a state-independent task schema (a sequence of skills to execute) and a policy to choose the parameterizations of the skills in a state-dependent manner. For such tasks, we show that explicitly modeling the schema's state-independence can yield significant improvements in sample efficiency for model-free reinforcement learning algorithms. Furthermore, these schemas can be transferred to solve related tasks, by simply re-learning the parameterizations with which the skills are invoked. We find that doing so enables learning to solve sparse-reward tasks on real-world robotic systems very efficiently. We validate our approach experimentally over a suite of robotic bimanual manipulation tasks, both in simulation and on real hardware.</em>
+<pre xml:space="preserve" id="icra20schemaBib">
+
+@inproceedings{chitnis20schema,
+  title={Efficient Bimanual Manipulation Using Learned Task Schemas},
+  author={Chitnis, Rohan and Tulsiani, Shubham and Gupta, Saurabh and Gupta, Abhinav},
+  booktitle={ICRA},
+  year={2020}
+}</pre></td>
+<script language="javascript" type="text/javascript" xml:space="preserve">
+hideblock('icra20schemaAbs');
+hideblock('icra20schemaBib');
+</script>
+</div>
+</div>
+<!--------------------------------------------------------------------------->
+<div class="year_heading"><br>2019<hr width="220px" align="left"></div>
+<!--------------------------------------------------------------------------->
+<div class="paper" id="corl19ocm">
+<img class="paper" src="figures/corl19ocm.png" />
+<p><b id="papertitle">Object-centric Forward Modeling for Model Predictive Control</b> <br/> 
+Yufei Ye, Dhiraj Gandhi, Abhinav Gupta, <strong>Shubham Tulsiani</strong> <br/> 
+CORL, 2019 <br/> 
+<a href="https://arxiv.org/pdf/1910.03568.pdf">pdf </a>  &nbsp <a href="https://judyye.github.io/ocmpc/">project page </a>  &nbsp <a href="javascript:toggleblock('corl19ocmAbs')">abstract </a>  &nbsp <a href="javascript:toggleblock('corl19ocmBib')">bibtex </a> </p>
+<div class="papermeta" id="corl19ocmMeta">
+<em id="corl19ocmAbs">We present an approach to learn an object-centric forward model, and show that this allows us to plan for sequences of actions to achieve distant desired goals. We propose to model a scene as a collection of objects, each with an explicit spatial location and implicit visual feature, and learn to model the effects of actions using random interaction data. Our model allows capturing the robot-object and object-object interactions, and leads to more sample-efficient and accurate predictions. We show that this learned model can be leveraged to search for action sequences that lead to desired goal configurations, and that in conjunction with a learned correction module, this allows for robust closed loop execution. We present experiments both in simulation and the real world, and show that our approach improves over alternate implicit or pixel-space forward models.</em>
+<pre xml:space="preserve" id="corl19ocmBib">
+
+@inProceedings{ye2019ocm,
+  title={Object-centric Forward Modeling for Model Predictive Control},
+  author={Ye, Yufei and Gandhi, Dhiraj and Gupta, Abhinav and Tulsiani, Shubham},
+  year={2019},
+  booktitle={Conference on Robot Learning (CORL)}
+}</pre></td>
+<script language="javascript" type="text/javascript" xml:space="preserve">
+hideblock('corl19ocmAbs');
+hideblock('corl19ocmBib');
+</script>
+</div>
+</div>
+<!--------------------------------------------------------------------------->
+
+<!--------------------------------------------------------------------------->
+<div class="paper" id="iccv19csm">
+<img class="paper" src="figures/iccv19csm.png" />
+<p><b id="papertitle">Canonical Surface Mapping via Geometric Cycle Consistency</b> <br/> 
+Nilesh Kulkarni, Abhinav Gupta*, <strong>Shubham Tulsiani</strong>* <br/> 
+ICCV, 2019 <br/> 
+<a href="https://arxiv.org/pdf/1907.10043.pdf">pdf </a>  &nbsp <a href="https://nileshkulkarni.github.io/csm/">project page </a>  &nbsp <a href="javascript:toggleblock('iccv19csmAbs')">abstract </a>  &nbsp <a href="javascript:toggleblock('iccv19csmBib')">bibtex </a>  &nbsp <a href="https://www.youtube.com/watch?v=93M3ou4mg-w">video </a>  &nbsp <a href="https://github.com/nileshkulkarni/csm">code </a> </p>
+<div class="papermeta" id="iccv19csmMeta">
+<em id="iccv19csmAbs">We explore the task of Canonical Surface Mapping (CSM).  Specifically, given an image, we learn to map pixels on the object to their corresponding locations on an abstract 3D model of the category. But how do we learn such a mapping? A supervised approach would require extensive manual labeling which is not scalable beyond a few hand-picked categories. Our key insight is that the CSM task (pixel to 3D), when combined with 3D projection (3D to pixel), completes a cycle. Hence, we can exploit a geometric cycle consistency loss, thereby allowing us to forgo the dense manual supervision. Our approach allows us to train a CSM model for a diverse set of classes, without sparse or dense keypoint annotation, by leveraging only foreground mask labels for training. We show that our predictions also allow us to infer dense correspondence between two images, and compare the performance of our approach against several methods that predict correspondence by leveraging varying amount of supervision.</em>
+<pre xml:space="preserve" id="iccv19csmBib">
+
+@inProceedings{kulkarni2019csm,
+  title={Canonical Surface Mapping via Geometric Cycle Consistency},
+  author={Kulkarni, Nilesh and Gupta, Abhinav and Tulsiani, Shubham},
+  year={2019},
+  booktitle={International Conference on Computer Vision (ICCV)}
+}</pre></td>
+<script language="javascript" type="text/javascript" xml:space="preserve">
+hideblock('iccv19csmAbs');
+hideblock('iccv19csmBib');
+</script>
+</div>
+</div>
+<!--------------------------------------------------------------------------->
+
+<!--------------------------------------------------------------------------->
+<div class="paper" id="iccv19cvp">
+<img class="paper" src="figures/iccv19cvp_static.png" />
+<p><b id="papertitle">Compositional Video Prediction</b> <br/> 
+Yufei Ye, Maneesh Singh, Abhinav Gupta*, <strong>Shubham Tulsiani</strong>* <br/> 
+ICCV, 2019 <br/> 
+<a href="https://arxiv.org/pdf/1908.08522.pdf">pdf </a>  &nbsp <a href="https://judyye.github.io/CVP/">project page </a>  &nbsp <a href="javascript:toggleblock('iccv19cvpAbs')">abstract </a>  &nbsp <a href="javascript:toggleblock('iccv19cvpBib')">bibtex </a>  &nbsp <a href="https://github.com/JudyYe/CVP">code </a> </p>
+<div class="papermeta" id="iccv19cvpMeta">
+<em id="iccv19cvpAbs">We present an approach for pixel-level future prediction given an input image of a scene. We observe that a scene is comprised of distinct entities that undergo motion and
+present an approach that operationalizes this insight. We implicitly predict future states of independent entities while reasoning about their interactions, and compose future video frames using these predicted states. We overcome the inherent multi-modality of the task using a global trajectory-level latent random variable, and show that this allows us to sample diverse and plausible futures. We empirically validate our approach against alternate representations and ways of incorporating  multi-modality. We examine two datasets, one comprising of stacked objects that may fall, and the other containing videos of humans performing activities in a gym, and show that our approach allows realistic stochastic video prediction across these diverse settings.</em>
+<pre xml:space="preserve" id="iccv19cvpBib">
+
+@inProceedings{ye2019cvp,
+  title={Compositional Video Prediction},
+  author={Ye, Yufei and Singh, Maneesh and Gupta, Abhinav and Tulsiani, Shubham},
+  year={2019},
+  booktitle={International Conference on Computer Vision (ICCV)}
+}</pre></td>
+<script language="javascript" type="text/javascript" xml:space="preserve">
+hideblock('iccv19cvpAbs');
+hideblock('iccv19cvpBib');
+</script>
+</div>
+</div>
+<!--------------------------------------------------------------------------->
+
+<!--------------------------------------------------------------------------->
+<div class="paper" id="iccv19relnet">
+<img class="paper" src="figures/iccv19relnet.png" />
+<p><b id="papertitle">3D-RelNet: Joint Object and Relational Network for 3D Prediction</b> <br/> 
+Nilesh Kulkarni, Ishan Misra, <strong>Shubham Tulsiani</strong>, Abhinav Gupta <br/> 
+ICCV, 2019 <br/> 
+<a href="https://arxiv.org/pdf/1906.02729">pdf </a>  &nbsp <a href="https://nileshkulkarni.github.io/relative3d/">project page </a>  &nbsp <a href="javascript:toggleblock('iccv19relnetAbs')">abstract </a>  &nbsp <a href="javascript:toggleblock('iccv19relnetBib')">bibtex </a>  &nbsp <a href="https://github.com/nileshkulkarni/relative3d">code </a> </p>
+<div class="papermeta" id="iccv19relnetMeta">
+<em id="iccv19relnetAbs">We propose an approach to predict the 3D shape and pose for the objects present in a scene. Existing learning based methods that pursue this goal make independent predictions per object, and do not leverage the relationships amongst them. We argue that reasoning about these relationships is crucial, and present an approach to incorporate these in a 3D prediction framework. In addition to independent per-object predictions, we predict pairwise relations in the form of relative 3D pose, and demonstrate that these can be easily incorporated to improve object level estimates. We report performance across different datasets (SUNCG, NYUv2), and show that our approach significantly improves over independent prediction approaches while also outperforming alternate implicit reasoning methods.</em>
+<pre xml:space="preserve" id="iccv19relnetBib">
+
+@inProceedings{kulkarni2019relnet,
+  title={3D-RelNet: Joint Object and Relational Network for 3D Prediction},
+  author={Nilesh Kulkarni, Ishan Misra, Shubham Tulsiani, Abhinav Gupta},
+  booktitle={ICCV},
+  year={2019}
+}</pre></td>
+<script language="javascript" type="text/javascript" xml:space="preserve">
+hideblock('iccv19relnetAbs');
+hideblock('iccv19relnetBib');
+</script>
+</div>
+</div>
+<!--------------------------------------------------------------------------->
+
+<!--------------------------------------------------------------------------->
+<div class="paper" id="iccv19craft">
+<img class="paper" src="figures/iccv19craft.png" />
+<p><b id="papertitle">Order-Aware Generative Modeling Using the 3D-Craft Dataset</b> <br/> 
+Zhuoyuan Chen*, Demi Guo*, Tong Xiao*, et. al. <br/> 
+ICCV, 2019 <br/> 
+<a href="http://openaccess.thecvf.com/content_ICCV_2019/papers/Chen_Order-Aware_Generative_Modeling_Using_the_3D-Craft_Dataset_ICCV_2019_paper.pdf">pdf </a>  &nbsp <a href="javascript:toggleblock('iccv19craftAbs')">abstract </a>  &nbsp <a href="javascript:toggleblock('iccv19craftBib')">bibtex </a> </p>
+<div class="papermeta" id="iccv19craftMeta">
+<em id="iccv19craftAbs">In this paper, we study the problem of sequentially building houses in the game of Minecraft, and demonstrate that learning the ordering can make for more effective autoregressive models. Given a partially built house made by a human player, our system tries to place additional blocks in a human-like manner to complete the house. We introduce a new dataset, HouseCraft, for this new task. HouseCraft contains the sequential order in which 2,500 Minecraft houses were built from scratch by humans. The human action sequences enable us to learn an order-aware generative model called Voxel-CNN. In contrast to many generative models where the sequential generation ordering either does not matter (e.g. holistic generation with GANs), or is manually/arbitrarily set by simple rules (e.g. raster-scan order), our focus is on an ordered generation that imitates humans. To evaluate if a generative model can accurately predict human-like actions, we propose several novel quantitative metrics. We demonstrate that our Voxel-CNN model is simple and effective at this creative task, and can serve as a strong baseline for future research in this direction.</em>
+<pre xml:space="preserve" id="iccv19craftBib">
+
+@inProceedings{chen2019craft,
+  title={Order-Aware Generative Modeling Using the 3D-Craft Dataset},
+  author={Zhuoyuan Chen, Demi Guo, Tong Xiao, Saining Xie, Xinlei Chen, Haonan Yu, Jonathan Gray, Kavya Srinet, Haoqi Fan, Jerry Ma, Charles R. Qi, Shubham Tulsiani, Arthur Szlam, and C. Lawrence Zitnick},
+  booktitle={ICCV},
+  year={2019}
+}</pre></td>
+<script language="javascript" type="text/javascript" xml:space="preserve">
+hideblock('iccv19craftAbs');
+hideblock('iccv19craftBib');
+</script>
+</div>
+</div>
+<!--------------------------------------------------------------------------->
+
+<!--------------------------------------------------------------------------->
+<div class="paper" id="pami19drc">
+<img class="paper" src="figures/pami19drc.png" />
+<p><b id="papertitle">Multi-view Supervision for Single-view Reconstruction via Differentiable Ray Consistency</b> <br/> 
+<strong>Shubham Tulsiani</strong>, Tinghui Zhou, Alexei A. Efros, Jitendra Malik <br/> 
+TPAMI, 2019  (journal version combining <a href="https://shubhtuls.github.io/drc/">DRC</a> and <a href="https://shubhtuls.github.io/mvcSnP/">MVC</a>) <br/> 
+<a href="papers/pami19drc.pdf">pdf </a>  &nbsp <a href="javascript:toggleblock('pami19drcAbs')">abstract </a>  &nbsp <a href="javascript:toggleblock('pami19drcBib')">bibtex </a>  &nbsp <a href="https://github.com/shubhtuls/drc">code </a> </p>
+<div class="papermeta" id="pami19drcMeta">
+<em id="pami19drcAbs">We study the notion of consistency between a 3D shape and a 2D observation and propose a differentiable formulation which allows computing gradients of the 3D shape given an observation from an arbitrary view. We do so by reformulating view consistency using a differentiable ray consistency (DRC) term. We show that this formulation can be incorporated in a learning framework to leverage different types of multi-view observations e.g. foreground masks, depth, color images, semantics etc. as supervision for learning single-view 3D prediction. We present empirical analysis of our technique in a controlled setting. We also show that this approach allows us to improve over existing techniques for single-view reconstruction of objects from the PASCAL VOC dataset.</em>
+<pre xml:space="preserve" id="pami19drcBib">
+
+@article{drcTulsiani19,
+  title={Multi-view Supervision for Single-view Reconstruction
+  via Differentiable Ray Consistency},
+  author = {Shubham Tulsiani
+  and Tinghui Zhou
+  and Alexei A. Efros
+  and Jitendra Malik},
+  journal = {TPAMI},
+  year = {2019},
+}</pre></td>
+<script language="javascript" type="text/javascript" xml:space="preserve">
+hideblock('pami19drcAbs');
+hideblock('pami19drcBib');
+</script>
+</div>
+</div>
+<!--------------------------------------------------------------------------->
+
+<!--------------------------------------------------------------------------->
+<div class="paper" id="pami19hsp">
+<img class="paper" src="figures/pami19hsp.png" />
+<p><b id="papertitle">Hierarchical Surface Prediction</b> <br/> 
+Christian H&auml;ne, <strong>Shubham Tulsiani</strong>, Jitendra Malik <br/> 
+TPAMI, 2019 (journal version of <a href="https://arxiv.org/pdf/1704.00710.pdf">HSP</a>) <br/> 
+<a href="papers/pami19hsp.pdf">pdf </a>  &nbsp <a href="javascript:toggleblock('pami19hspAbs')">abstract </a>  &nbsp <a href="javascript:toggleblock('pami19hspBib')">bibtex </a>  &nbsp <a href="https://github.com/chaene/hsp">code </a> </p>
+<div class="papermeta" id="pami19hspMeta">
+<em id="pami19hspAbs">Recently, Convolutional Neural Networks have shown promising results for 3D geometry prediction. They can make predictions from very little input data such as a single color image. A major limitation of such approaches is that they only predict a coarse resolution voxel grid, which does not capture the surface of the objects well. We propose a general framework, called hierarchical surface prediction (HSP), which facilitates prediction of high resolution voxel grids. The main insight is that it is sufficient to predict high resolution voxels around the predicted surfaces. The exterior and interior of the objects can be represented with coarse resolution voxels. This allows us to predict significantly higher resolution voxel grids around the surface, from which triangle meshes can be extracted. Additionally it allows us to predict properties such as surface color which are only defined on the surface. Our approach is not dependent on a specific input type. We show results for geometry prediction from color images and depth images. Our analysis shows that our high resolution predictions are more accurate than low resolution predictions.</em>
+<pre xml:space="preserve" id="pami19hspBib">
+
+@article{hspHane19,
+  author = {Christian H{\"a}ne and
+  Shubham Tulsiani and
+  Jitendra Malik},
+  title = {Hierarchical Surface Prediction},
+  journal = {TPAMI},
+  year = {2019},
+}</pre></td>
+<script language="javascript" type="text/javascript" xml:space="preserve">
+hideblock('pami19hspAbs');
+hideblock('pami19hspBib');
+</script>
+</div>
+</div>
+<!--------------------------------------------------------------------------->
+<div class="year_heading"><br>2018<hr width="220px" align="left"></div>
+<!--------------------------------------------------------------------------->
+<div class="paper" id="eccv18lsi">
+<img class="paper" src="https://shubhtuls.github.io/lsi/resources/images/teaser.png" />
+<p><b id="papertitle">Layer-structured 3D Scene Inference via View Synthesis</b> <br/> 
+<strong>Shubham Tulsiani</strong>, Richard Tucker, Noah Snavely <br/> 
+ECCV, 2018 <br/> 
+<a href="https://arxiv.org/pdf/1807.10264.pdf">pdf </a>  &nbsp <a href="https://shubhtuls.github.io/lsi/">project page </a>  &nbsp <a href="javascript:toggleblock('eccv18lsiAbs')">abstract </a>  &nbsp <a href="javascript:toggleblock('eccv18lsiBib')">bibtex </a>  &nbsp <a href="https://github.com/google/layered-scene-inference">code </a> </p>
+<div class="papermeta" id="eccv18lsiMeta">
+<em id="eccv18lsiAbs">We present an approach to infer a layer-structured 3D representation of a scene from a single input image. This allows us to infer not only the depth of the visible pixels, but also capture the texture and depth for content in the scene that is not directly visible. We overcome the challenge posed by the lack of direct supervision by instead leveraging a more naturally available multi-view supervisory signal. Our insight is to use view synthesis as a proxy task: we enforce that our representation (inferred via a single image), when rendered from a novel perspective, matches the true observation. We present a learning framework that operationalizes this insight using a new, differentiable novel view renderer. We provide qualitative and quantitative validation of our approach in two different settings, and demonstrate that we can learn to capture the hidden aspects of a scene.</em>
+<pre xml:space="preserve" id="eccv18lsiBib">
+
+@inProceedings{lsiTulsiani18,
+  title={Layer-structured 3D Scene Inference via View Synthesis},
+  author = {Shubham Tulsiani
+  and Richard Tucker
+  and Noah Snavely},
+  booktitle={ECCV},
+  year={2018}
+}</pre></td>
+<script language="javascript" type="text/javascript" xml:space="preserve">
+hideblock('eccv18lsiAbs');
+hideblock('eccv18lsiBib');
+</script>
+</div>
+</div>
+<!--------------------------------------------------------------------------->
+
+<!--------------------------------------------------------------------------->
+<div class="paper" id="eccv18cmr">
+<img class="paper" src="figures/arxiv18cmr.png" />
+<p><b id="papertitle">Learning Category-Specific Mesh Reconstruction from Image Collections</b> <br/> 
+Angjoo Kanazawa*, <strong>Shubham Tulsiani</strong>*, Alexei A. Efros, Jitendra Malik <br/> 
+ECCV, 2018 <br/> 
+<a href="https://arxiv.org/pdf/1803.07549.pdf">pdf </a>  &nbsp <a href="https://akanazawa.github.io/cmr/">project page </a>  &nbsp <a href="javascript:toggleblock('eccv18cmrAbs')">abstract </a>  &nbsp <a href="javascript:toggleblock('eccv18cmrBib')">bibtex </a>  &nbsp <a href="https://youtu.be/cYHQKtBLI3Q">video </a>  &nbsp <a href="https://github.com/akanazawa/cmr">code </a> </p>
+<div class="papermeta" id="eccv18cmrMeta">
+<em id="eccv18cmrAbs">We present a learning framework for recovering the 3D shape, camera, and texture of an object from a single image. The shape is represented as a deformable 3D mesh model of an object category where a shape is parameterized by a learned mean shape and per-instance predicted deformation. Our approach allows leveraging an annotated image collection for training, where the deformable model and the 3D prediction mechanism are learned without relying on ground-truth 3D or multi-view supervision. Our representation enables us to go beyond existing 3D prediction approaches by incorporating texture inference as prediction of an image in a canonical appearance space. Additionally, we show that semantic keypoints can be easily associated with the predicted shapes. We present qualitative and quantitative results of our approach on the CUB dataset, and show that we can learn to predict the diverse shapes and textures across birds using only an annotated image collection. We also demonstrate the the applicability of our method for learning the 3D structure of other generic categories.</em>
+<pre xml:space="preserve" id="eccv18cmrBib">
+
+@inProceedings{cmrKanazawa18,
+  title={Learning Category-Specific Mesh Reconstruction
+  from Image Collections},
+  author = {Angjoo Kanazawa and
+  Shubham Tulsiani
+  and Alexei A. Efros
+  and Jitendra Malik},
+  booktitle={ECCV},
+  year={2018}
+}</pre></td>
+<script language="javascript" type="text/javascript" xml:space="preserve">
+hideblock('eccv18cmrAbs');
+hideblock('eccv18cmrBib');
+</script>
+</div>
+</div>
+<!--------------------------------------------------------------------------->
+
+<!--------------------------------------------------------------------------->
+<div class="paper" id="cvpr18mvc">
+<img class="paper" src="figures/arxiv18mvc.png" />
+<p><b id="papertitle">Multi-view Consistency as Supervisory Signal for Learning Shape and Pose Prediction</b> <br/> 
+<strong>Shubham Tulsiani</strong>, Alexei A. Efros, Jitendra Malik <br/> 
+CVPR, 2018 <br/> 
+<a href="https://arxiv.org/pdf/1801.03910.pdf">pdf </a>  &nbsp <a href="https://shubhtuls.github.io/mvcSnP/">project page </a>  &nbsp <a href="javascript:toggleblock('cvpr18mvcAbs')">abstract </a>  &nbsp <a href="javascript:toggleblock('cvpr18mvcBib')">bibtex </a>  &nbsp <a href="https://github.com/shubhtuls/mvcSnP">code </a> </p>
+<div class="papermeta" id="cvpr18mvcMeta">
+<em id="cvpr18mvcAbs">We present a framework for learning single-view shape and pose prediction without using direct supervision for either. Our approach allows leveraging multi-view observations from unknown poses as supervisory signal during training. Our proposed training setup enforces geometric consistency between the independently predicted shape and pose from two views of the same instance. We consequently learn to predict shape in an emergent canonical (view-agnostic) frame along with a corresponding pose predictor. We show empirical and qualitative results using the ShapeNet dataset and observe encouragingly competitive performance to previous techniques which rely on stronger forms of supervision. We also demonstrate the applicability of our framework in a realistic setting which is beyond the scope of existing techniques: using a training dataset comprised of online product images where the underlying shape and pose are unknown.</em>
+<pre xml:space="preserve" id="cvpr18mvcBib">
+
+@inProceedings{mvcTulsiani18,
+  title={Multi-view Consistency as Supervisory Signal
+  for Learning Shape and Pose Prediction},
+  author = {Shubham Tulsiani
+  and Alexei A. Efros
+  and Jitendra Malik},
+  booktitle={Computer Vision and Pattern Recognition (CVPR)},
+  year={2018}
+}</pre></td>
+<script language="javascript" type="text/javascript" xml:space="preserve">
+hideblock('cvpr18mvcAbs');
+hideblock('cvpr18mvcBib');
+</script>
+</div>
+</div>
+<!--------------------------------------------------------------------------->
+
+<!--------------------------------------------------------------------------->
+<div class="paper" id="cvpr18f3d">
+<img class="paper" src="https://shubhtuls.github.io/factored3d/resources/images/teaser.png" />
+<p><b id="papertitle">Factoring Shape, Pose, and Layout from the 2D Image of a 3D Scene</b> <br/> 
+<strong>Shubham Tulsiani</strong>, Saurabh Gupta, David Fouhey, Alexei A. Efros, Jitendra Malik <br/> 
+CVPR, 2018 <br/> 
+<a href="https://arxiv.org/pdf/1712.01812.pdf">pdf </a>  &nbsp <a href="https://shubhtuls.github.io/factored3d/">project page </a>  &nbsp <a href="javascript:toggleblock('cvpr18f3dAbs')">abstract </a>  &nbsp <a href="javascript:toggleblock('cvpr18f3dBib')">bibtex </a>  &nbsp <a href="https://github.com/shubhtuls/factored3d">code </a> </p>
+<div class="papermeta" id="cvpr18f3dMeta">
+<em id="cvpr18f3dAbs">The goal of this work is to take a single 2D image of a scene and recover the 3D structure in terms of a small set of factors: a layout representing the enclosing surfaces as well as a set of objects represented in terms of shape and pose. We propose a convolutional neural network-based approach to predict this representation and benchmark it on a large dataset of indoor scenes. Our experiments evaluate a number of practical design questions, demonstrate that we can infer this representation, and quantitatively and qualitatively demonstrate its merits compared to alternate representations.</em>
+<pre xml:space="preserve" id="cvpr18f3dBib">
+
+@inProceedings{factored3dTulsiani17,
+  title={Factoring Shape, Pose, and Layout from the 2D Image of a 3D Scene},
+  author = {Shubham Tulsiani
+  and Saurabh Gupta
+  and David Fouhey
+  and Alexei A. Efros
+  and Jitendra Malik},
+  booktitle={Computer Vision and Pattern Recognition (CVPR)},
+  year={2018}
+}</pre></td>
+<script language="javascript" type="text/javascript" xml:space="preserve">
+hideblock('cvpr18f3dAbs');
+hideblock('cvpr18f3dBib');
+</script>
+</div>
+</div>
+<!--------------------------------------------------------------------------->
+<div class="year_heading"><br>2017<hr width="220px" align="left"></div>
+<!--------------------------------------------------------------------------->
+<div class="paper" id="cvpr17drc">
+<img class="paper" src="figures/cvpr17drc.png" />
+<p><b id="papertitle">Multi-view Supervision for Single-view Reconstruction via Differentiable Ray Consistency</b> <br/> 
+<strong>Shubham Tulsiani</strong>, Tinghui Zhou, Alexei A. Efros, Jitendra Malik <br/> 
+CVPR, 2017 <br/> 
+<a href="https://arxiv.org/pdf/1704.06254.pdf">pdf </a>  &nbsp <a href="https://shubhtuls.github.io/drc/">project page </a>  &nbsp <a href="javascript:toggleblock('cvpr17drcAbs')">abstract </a>  &nbsp <a href="javascript:toggleblock('cvpr17drcBib')">bibtex </a>  &nbsp <a href="https://people.eecs.berkeley.edu/~shubhtuls/slides/cvpr17drc.pdf">slides </a>  &nbsp <a href="https://www.youtube.com/watch?v=i--alz5-lTc">talk </a>  &nbsp <a href="https://github.com/shubhtuls/drc">code </a>  &nbsp <a href="http://bair.berkeley.edu/blog/2017/07/11/confluence-of-geometry-and-learning/">blog post </a> </p>
+<div class="papermeta" id="cvpr17drcMeta">
+<em id="cvpr17drcAbs">We study the notion of consistency between a 3D shape and a 2D observation and propose a differentiable formulation which allows computing gradients of the 3D shape given an observation from an arbitrary view. We do so by reformulating view consistency using a differentiable ray consistency (DRC) term. We show that this formulation can be incorporated in a learning framework to leverage different types of multi-view observations e.g. foreground masks, depth, color images, semantics etc. as supervision for learning single-view 3D prediction. We present empirical analysis of our technique in a controlled setting. We also show that this approach allows us to improve over existing techniques for single-view reconstruction of objects from the PASCAL VOC dataset.</em>
+<pre xml:space="preserve" id="cvpr17drcBib">
+
+@inProceedings{drcTulsiani17,
+  title={Multi-view Supervision for Single-view Reconstruction
+  via Differentiable Ray Consistency},
+  author = {Shubham Tulsiani
+  and Tinghui Zhou
+  and Alexei A. Efros
+  and Jitendra Malik},
+  booktitle={Computer Vision and Pattern Recognition (CVPR)},
+  year={2017}
+}</pre></td>
+<script language="javascript" type="text/javascript" xml:space="preserve">
+hideblock('cvpr17drcAbs');
+hideblock('cvpr17drcBib');
+</script>
+</div>
+</div>
+<!--------------------------------------------------------------------------->
+
+<!--------------------------------------------------------------------------->
+<div class="paper" id="cvpr17abstraction">
+<img class="paper" src="https://shubhtuls.github.io/volumetricPrimitives/resources/images/teaser.png" />
+<p><b id="papertitle">Learning Shape Abstractions by Assembling Volumetric Primitives</b> <br/> 
+<strong>Shubham Tulsiani</strong>, Hao Su, Leonidas J. Guibas, Alexei A. Efros, Jitendra Malik <br/> 
+CVPR, 2017 <br/> 
+<a href="https://arxiv.org/pdf/1612.00404.pdf">pdf </a>  &nbsp <a href="https://shubhtuls.github.io/volumetricPrimitives/">project page </a>  &nbsp <a href="javascript:toggleblock('cvpr17abstractionAbs')">abstract </a>  &nbsp <a href="javascript:toggleblock('cvpr17abstractionBib')">bibtex </a>  &nbsp <a href="https://github.com/shubhtuls/volumetricPrimitives">code (torch) </a>  &nbsp <a href="https://github.com/nileshkulkarni/volumetricPrimitivesPytorch">code (pytorch - unofficial) </a> </p>
+<div class="papermeta" id="cvpr17abstractionMeta">
+<em id="cvpr17abstractionAbs">We present a learning framework for abstracting complex shapes by learning to assemble objects using 3D volumetric primitives. In addition to generating simple and geometrically interpretable explanations of 3D objects, our framework also allows us to automatically discover and exploit consistent structure in the data. We demonstrate that using our method allows predicting shape representations which can be leveraged for obtaining a consistent parsing across the instances of a shape collection and constructing an interpretable shape similarity measure. We also examine applications for image-based prediction as well as shape manipulation.</em>
+<pre xml:space="preserve" id="cvpr17abstractionBib">
+
+@inProceedings{abstractionTulsiani17,
+  title={Learning Shape Abstractions by Assembling Volumetric Primitives},
+  author = {Shubham Tulsiani
+  and Hao Su
+  and Leonidas J. Guibas
+  and Alexei A. Efros
+  and Jitendra Malik},
+  booktitle={Computer Vision and Pattern Recognition (CVPR)},
+  year={2017}
+}</pre></td>
+<script language="javascript" type="text/javascript" xml:space="preserve">
+hideblock('cvpr17abstractionAbs');
+hideblock('cvpr17abstractionBib');
+</script>
+</div>
+</div>
+<!--------------------------------------------------------------------------->
+
+<!--------------------------------------------------------------------------->
+<div class="paper" id="3dv17hsp">
+<img class="paper" src="figures/iccv17hsp.png" />
+<p><b id="papertitle">Hierarchical Surface Prediction for 3D Object Reconstruction</b> <br/> 
+Christian H&auml;ne, <strong>Shubham Tulsiani</strong>, Jitendra Malik <br/> 
+3DV, 2017 <br/> 
+<a href="https://arxiv.org/pdf/1704.00710.pdf">pdf </a>  &nbsp <a href="javascript:toggleblock('3dv17hspAbs')">abstract </a>  &nbsp <a href="javascript:toggleblock('3dv17hspBib')">bibtex </a>  &nbsp <a href="https://people.eecs.berkeley.edu/~chaene/publications/haene2017hspICCVTalk.pdf">slides </a>  &nbsp <a href="https://github.com/chaene/hsp">code </a> </p>
+<div class="papermeta" id="3dv17hspMeta">
+<em id="3dv17hspAbs">Recently, Convolutional Neural Networks have shown promising results for 3D geometry prediction. They can make predictions from very little input data such as for example a single color image, depth map or a partial 3D volume. A major limitation of such approaches is that they only predict a coarse resolution voxel grid, which does not capture the surface of the objects well. We propose a general framework, called hierarchical surface prediction (HSP), which facilitates prediction of high resolution voxel grids. The main insight is that it is sufficient to predict high resolution voxels around the predicted surfaces. The exterior and interior of the objects can be represented with coarse resolution voxels. This allows us to predict significantly higher resolution voxel grids around the surface, from which triangle meshes can be extracted. Our approach is general and not dependent on a specific input type. In our experiments we show results for geometry prediction from color images, depth images and shape completion from partial voxel grids. Our analysis shows that the network is able to predict the surface more accurately than a low resolution prediction.</em>
+<pre xml:space="preserve" id="3dv17hspBib">
+
+@incollection{hspHane17,
+  author = {Christian H{\"a}ne and
+  Shubham Tulsiani and
+  Jitendra Malik},
+  title = {Hierarchical Surface Prediction for 3D Object Reconstruction},
+  booktitle = {arXiv preprint arXiv:1704.00710},
+  year = {2017}
+}</pre></td>
+<script language="javascript" type="text/javascript" xml:space="preserve">
+hideblock('3dv17hspAbs');
+hideblock('3dv17hspBib');
+</script>
+</div>
+</div>
+<!--------------------------------------------------------------------------->
+<div class="year_heading"><br>2016<hr width="220px" align="left"></div>
+<!--------------------------------------------------------------------------->
+<div class="paper" id="pami16reconstruction">
+<img class="paper" src="figures/pami16reconstruction.png" />
+<p><b id="papertitle">Learning Category-Specific Deformable 3D Models for Object Reconstruction</b> <br/> 
+<strong>Shubham Tulsiani</strong>*, Abhishek Kar*, João Carreira, Jitendra Malik <br/> 
+TPAMI, 2016 <br/> 
+<a href="papers/pami16reconstruction.pdf">pdf </a>  &nbsp <a href="javascript:toggleblock('pami16reconstructionAbs')">abstract </a>  &nbsp <a href="javascript:toggleblock('pami16reconstructionBib')">bibtex </a>  &nbsp <a href="https://github.com/akar43/CategoryShapes">code </a> </p>
+<div class="papermeta" id="pami16reconstructionMeta">
+<em id="pami16reconstructionAbs">We address the problem of fully automatic object localization and reconstruction from a single image. This is both a very challenging and very important problem which has, until recently, received limited attention due to difficulties in segmenting objects and predicting their poses. Here we leverage recent advances in learning convolutional networks for object detection and segmentation and introduce a complementary network for the task of camera viewpoint prediction. These predictors are very powerful, but still not perfect given the stringent requirements of shape reconstruction. Our main contribution is a new class of deformable 3D models that can be robustly fitted to images based on noisy pose and silhouette estimates computed upstream and that can be learned directly from 2D annotations available in object detection datasets. Our models capture top-down information about the main global modes of shape variation within a class providing a ``low-frequency'' shape. In order to capture fine instance-specific shape details, we fuse it with a high-frequency component recovered from shading cues. A comprehensive quantitative analysis and ablation study on the PASCAL 3D+ dataset validates the approach as we show fully automatic reconstructions on PASCAL VOC as well as large improvements on the task of viewpoint prediction.</em>
+<pre xml:space="preserve" id="pami16reconstructionBib">
+
+@article{pamishapeTulsianiKCM15,
+  author = {Shubham Tulsiani and
+  Abhishek Kar and
+  Jo{\~{a}}o Carreira and
+  Jitendra Malik},
+  title = {Learning Category-Specific Deformable 3D
+  Models for Object Reconstruction},
+  journal = {TPAMI},
+  year = {2016},
+}</pre></td>
+<script language="javascript" type="text/javascript" xml:space="preserve">
+hideblock('pami16reconstructionAbs');
+hideblock('pami16reconstructionBib');
+</script>
+</div>
+</div>
+<!--------------------------------------------------------------------------->
+
+<!--------------------------------------------------------------------------->
+<div class="paper" id="eccv16flow">
+<img class="paper" src="figures/arxiv16flow.png" />
+<p><b id="papertitle">View Synthesis by Appearance Flow</b> <br/> 
+Tinghui Zhou, <strong>Shubham Tulsiani</strong>, Weilun Sun, Jitendra Malik, Alexei A. Efros <br/> 
+ECCV, 2016 <br/> 
+<a href="http://arxiv.org/pdf/1605.03557v2.pdf">pdf </a>  &nbsp <a href="javascript:toggleblock('eccv16flowAbs')">abstract </a>  &nbsp <a href="javascript:toggleblock('eccv16flowBib')">bibtex </a>  &nbsp <a href="https://github.com/tinghuiz/appearance-flow">code </a> </p>
+<div class="papermeta" id="eccv16flowMeta">
+<em id="eccv16flowAbs">Given one or more images of an object (or a scene), is it possible to synthesize a new image of the same instance observed from an arbitrary viewpoint? In this paper, we attempt to tackle this problem, known as novel view synthesis, by re-formulating it as a pixel copying task that avoids the notorious difficulties of generating pixels from scratch. Our approach is built on the observation that the visual appearance of different views of the same instance is highly correlated. Such correlation could be explicitly learned by training a convolutional neural network (CNN) to predict \emph{appearance flows} -- 2-D coordinate vectors specifying which pixels in the input view could be used to reconstruct the target view. We show that for both objects and scenes, our approach is able to generate higher-quality synthesized views with crisp texture and boundaries than previous CNN-based techniques.</em>
+<pre xml:space="preserve" id="eccv16flowBib">
+
+@incollection{appFlowZhou16,
+author = {Tinghui Zhou and
+Shubham Tulsiani and
+Weilun Sun and
+Jitendra Malik and
+Alexei A. Efros},
+title = {View Synthesis by Appearance Flow},
+booktitle = {ECCV},
+year = {2016}
+}</pre></td>
+<script language="javascript" type="text/javascript" xml:space="preserve">
+hideblock('eccv16flowAbs');
+hideblock('eccv16flowBib');
+</script>
+</div>
+</div>
+<!--------------------------------------------------------------------------->
+<div class="year_heading"><br>2015<hr width="220px" align="left"></div>
+<!--------------------------------------------------------------------------->
+<div class="paper" id="iccv15pose">
+<img class="paper" src="figures/iccv15poseInd.png" />
+<p><b id="papertitle">Pose Induction for Novel Object Categories</b> <br/> 
+<strong>Shubham Tulsiani</strong>, Jo&atilde;o Carreira, Jitendra Malik <br/> 
+ICCV, 2015 <br/> 
+<a href="https://arxiv.org/pdf/1505.00066.pdf">pdf </a>  &nbsp <a href="javascript:toggleblock('iccv15poseAbs')">abstract </a>  &nbsp <a href="javascript:toggleblock('iccv15poseBib')">bibtex </a>  &nbsp <a href="https://github.com/shubhtuls/poseInduction">code </a> </p>
+<div class="papermeta" id="iccv15poseMeta">
+<em id="iccv15poseAbs">We address the task of predicting pose for objects of unannotated object categories from a small seed set of annotated object classes. We present a generalized classifier that can reliably induce pose given a single instance of a novel category. In case of availability of a large collection of novel instances, our approach then jointly reasons over all instances to improve the initial estimates. We empirically validate the various components of our algorithm and quantitatively show that our method produces reliable pose estimates. We also show qualitative results on a diverse set of classes and further demonstrate the applicability of our system for learning shape models of novel object classes.</em>
+<pre xml:space="preserve" id="iccv15poseBib">
+
+@inProceedings{poseInductionTCM15,
+  author    = {Shubham Tulsiani and
+               Jo{\~{a}}o Carreira and
+               Jitendra Malik},
+  title     = {Pose Induction for Novel Object Categories},
+  year={2015},
+  booktitle={International Conference on Computer Vision (ICCV)}
+}</pre></td>
+<script language="javascript" type="text/javascript" xml:space="preserve">
+hideblock('iccv15poseAbs');
+hideblock('iccv15poseBib');
+</script>
+</div>
+</div>
+<!--------------------------------------------------------------------------->
+
+<!--------------------------------------------------------------------------->
+<div class="paper" id="iccv15amodal">
+<img class="paper" src="figures/iccv15amodal.png" />
+<p><b id="papertitle">Amodal Completion and Size Constancy in Natural Scenes</b> <br/> 
+Abhishek Kar, <strong>Shubham Tulsiani</strong>, Jo&atilde;o Carreira, Jitendra Malik <br/> 
+ICCV, 2015 <br/> 
+<a href="https://arxiv.org/pdf/1509.08147.pdf">pdf </a>  &nbsp <a href="javascript:toggleblock('iccv15amodalAbs')">abstract </a>  &nbsp <a href="javascript:toggleblock('iccv15amodalBib')">bibtex </a> </p>
+<div class="papermeta" id="iccv15amodalMeta">
+<em id="iccv15amodalAbs">We consider the problem of enriching current object detection systems with veridical object sizes and relative depth estimates from a single image. There are several technical challenges to this, such as occlusions, lack of calibration data and the scale ambiguity between object size and distance. These have not been addressed in full generality in previous work. Here we propose to tackle these issues by building upon advances in object recognition and using recently created large-scale datasets. We first introduce the task of amodal bounding box completion, which aims to infer the the full extent of the object instances in the image. We then propose a probabilistic framework for learning category-specific object size distributions from available annotations and leverage these in conjunction with amodal completions to infer veridical sizes of objects in novel images. Finally, we introduce a focal length prediction approach that exploits scene recognition to overcome inherent scale ambiguities and demonstrate qualitative results on challenging real-world scenes.</em>
+<pre xml:space="preserve" id="iccv15amodalBib">
+
+@inProceedings{amodalKTCM15,
+  author    = {Abhishek Kar and
+               Shubham Tulsiani and
+               Jo{\~{a}}o Carreira and
+               Jitendra Malik},
+  title     = {Amodal Completion and Size Constancy in Natural Scenes},
+  year={2015},
+  booktitle={International Conference on Computer Vision (ICCV)}
+ }</pre></td>
+<script language="javascript" type="text/javascript" xml:space="preserve">
+hideblock('iccv15amodalAbs');
+hideblock('iccv15amodalBib');
+</script>
+</div>
+</div>
+<!--------------------------------------------------------------------------->
+
+<!--------------------------------------------------------------------------->
+<div class="paper" id="cvpr15vps">
+<img class="paper" src="figures/cvpr15vpsKps.png" />
+<p><b id="papertitle">Viewpoints and Keypoints</b> <br/> 
+<strong>Shubham Tulsiani</strong>, Jitendra Malik <br/> 
+CVPR, 2015 <br/> 
+<a href="https://arxiv.org/pdf/1411.6067.pdf">pdf </a>  &nbsp <a href="javascript:toggleblock('cvpr15vpsAbs')">abstract </a>  &nbsp <a href="javascript:toggleblock('cvpr15vpsBib')">bibtex </a>  &nbsp <a href="https://github.com/shubhtuls/ViewpointsAndKeypoints">code </a> </p>
+<div class="papermeta" id="cvpr15vpsMeta">
+<em id="cvpr15vpsAbs">We characterize the problem of pose estimation for rigid objects in terms of determining viewpoint to explain coarse pose and keypoint prediction to capture the finer details. We address both these tasks in two different settings - the constrained setting with known bounding boxes and the more challenging detection setting where the aim is to simultaneously detect and correctly estimate pose of objects. We present Convolutional Neural Network based architectures for these and demonstrate that leveraging viewpoint estimates can substantially improve local appearance based keypoint predictions. In addition to achieving significant improvements over state-of-the-art in the above tasks, we analyze the error modes and effect of object characteristics on performance to guide future efforts towards this goal.</em>
+<pre xml:space="preserve" id="cvpr15vpsBib">
+
+@inProceedings{vpsKpsTulsianiM15,
+  author    = {Shubham Tulsiani and Jitendra Malik},
+  title     = {Viewpoints and Keypoints},
+  year={2015},
+  booktitle={Computer Vision and Pattern Recognition (CVPR)}
+}</pre></td>
+<script language="javascript" type="text/javascript" xml:space="preserve">
+hideblock('cvpr15vpsAbs');
+hideblock('cvpr15vpsBib');
+</script>
+</div>
+</div>
+<!--------------------------------------------------------------------------->
+
+<!--------------------------------------------------------------------------->
+<div class="paper" id="cvpr15csdm">
+<img class="paper" src="figures/cvpr15reconstruction.png" />
+<p><b id="papertitle">Category-Specific Object Reconstruction from a Single Image</b> <br/> 
+Abhishek Kar*, <strong>Shubham Tulsiani</strong>*, Jo&atilde;o Carreira, Jitendra Malik <br/> 
+CVPR, 2015  <strong style="color:red">(Best Student Paper Award)</strong><br/> 
+<a href="https://arxiv.org/pdf/1411.6069.pdf">pdf </a>  &nbsp <a href="http://www.cs.berkeley.edu/~akar/categoryShapes/">project page </a>  &nbsp <a href="javascript:toggleblock('cvpr15csdmAbs')">abstract </a>  &nbsp <a href="javascript:toggleblock('cvpr15csdmBib')">bibtex </a>  &nbsp <a href="https://github.com/akar43/CategoryShapes">code </a>  &nbsp <a href="Best Student Paper Award">note </a> </p>
+<div class="papermeta" id="cvpr15csdmMeta">
+<em id="cvpr15csdmAbs">Object reconstruction from a single image - in the wild - is a problem where we can make progress and get meaningful results today. This is the main message of this paper, which introduces an automated pipeline with pixels as inputs and 3D surfaces of various rigid categories as outputs in images of realistic scenes. At the core of our approach are deformable 3D models that can be learned from 2D annotations available in existing object detection datasets, that can be driven by noisy automatic object segmentations and which we complement with a bottom-up module for recovering high-frequency shape details. We perform a comprehensive quantitative analysis and ablation study of our approach using the recently introduced PASCAL 3D+ dataset and show very encouraging automatic reconstructions on PASCAL VOC.</em>
+<pre xml:space="preserve" id="cvpr15csdmBib">
+
+@inProceedings{shapesKarTCM15,
+  author    = {Abhishek Kar and
+               Shubham Tulsiani and
+               Jo{\~{a}}o Carreira and
+               Jitendra Malik},
+  title     = {Category-Specific Object Reconstruction from a Single Image},
+  year={2015},
+  booktitle={Computer Vision and Pattern Recognition (CVPR)}
+}</pre></td>
+<script language="javascript" type="text/javascript" xml:space="preserve">
+hideblock('cvpr15csdmAbs');
+hideblock('cvpr15csdmBib');
+</script>
+</div>
+</div>
+<!--------------------------------------------------------------------------->
+
+<!--------------------------------------------------------------------------->
+<div class="paper" id="cvpr15vvn">
+<img class="paper" src="figures/cvpr15vvn.png" />
+<p><b id="papertitle">Virtual View Networks for Object Reconstruction</b> <br/> 
+Jo&atilde;o Carreira, Abhishek Kar, <strong>Shubham Tulsiani</strong>, Jitendra Malik <br/> 
+CVPR, 2015 <br/> 
+<a href="https://arxiv.org/pdf/1411.6091.pdf">pdf </a>  &nbsp <a href="javascript:toggleblock('cvpr15vvnAbs')">abstract </a>  &nbsp <a href="javascript:toggleblock('cvpr15vvnBib')">bibtex </a>  &nbsp <a href="https://www.youtube.com/watch?v=JfDJji5sYXE&feature=youtu.be">video </a>  &nbsp <a href="http://www.cs.berkeley.edu/~carreira/vvn/">code </a> </p>
+<div class="papermeta" id="cvpr15vvnMeta">
+<em id="cvpr15vvnAbs">All that structure from motion algorithms "see" are sets of 2D points. We show that these impoverished views of the world can be faked for the purpose of reconstructing objects in challenging settings, such as from a single image, or from a few ones far apart, by recognizing the object and getting help from a collection of images of other objects from the same class. We synthesize virtual views by computing geodesics on novel networks connecting objects with similar viewpoints, and introduce techniques to increase the specificity and robustness of factorization-based object reconstruction in this setting. We report accurate object shape reconstruction from a single image on challenging PASCAL VOC data, which suggests that the current domain of applications of rigid structure-from-motion techniques may be significantly extended.</em>
+<pre xml:space="preserve" id="cvpr15vvnBib">
+
+@inProceedings{vvnCarreiraKTM15,
+  author    = {Jo{\~{a}}o Carreira and
+               Abhishek Kar and
+               Shubham Tulsiani and
+               Jitendra Malik},
+  title     = {Virtual View Networks for Object Reconstruction},
+  year={2015},
+  booktitle={Computer Vision and Pattern Recognition (CVPR)}
+}</pre></td>
+<script language="javascript" type="text/javascript" xml:space="preserve">
+hideblock('cvpr15vvnAbs');
+hideblock('cvpr15vvnBib');
+</script>
+</div>
+</div>
+<!--------------------------------------------------------------------------->
+<div class="year_heading"><br>2013<hr width="220px" align="left"></div>
+<!--------------------------------------------------------------------------->
+<div class="paper" id="uist13colors">
+<img class="paper" src="figures/uist13.png" />
+<p><b id="papertitle">A colorful approach to text processing by example</b> <br/> 
+Kuat Yessenov, <strong>Shubham Tulsiani</strong>, Aditya Menon, Robert C Miller, Sumit Gulwani, Butler Lampson, Adam Kalai <br/> 
+UIST, 2013 <br/> 
+<a href="papers/uist13colors.pdf">pdf </a>  &nbsp <a href="javascript:toggleblock('uist13colorsAbs')">abstract </a>  &nbsp <a href="javascript:toggleblock('uist13colorsBib')">bibtex </a> </p>
+<div class="papermeta" id="uist13colorsMeta">
+<em id="uist13colorsAbs">Text processing, tedious and error-prone even for programmers, remains one of the most alluring targets of Programming by Example. An examination of real-world text processing tasks found on help forums reveals that many such tasks, beyond simple string manipulation, involve latent hierarchical structures.
+We present STEPS, a programming system for processing structured and semi-structured text by example. STEPS users create and manipulate hierarchical structure by example. In a between-subject user study on fourteen computer scientists, STEPS compares favorably to traditional programming.</em>
+<pre xml:space="preserve" id="uist13colorsBib">
+
+@inproceedings{yessenov2013colorful,
+  title={A colorful approach to text processing by example},
+  author={Yessenov, Kuat and
+  Tulsiani, Shubham and
+  Menon, Aditya and
+  Miller, Robert C and
+  Gulwani,Sumit and
+  Lampson, Butler and
+  Kalai, Adam},
+  booktitle={UIST},
+  pages={495--504},
+  year={2013},
+  organization={ACM}
+}</pre></td>
+<script language="javascript" type="text/javascript" xml:space="preserve">
+hideblock('uist13colorsAbs');
+hideblock('uist13colorsBib');
+</script>
+</div>
+</div>
+<!--------------------------------------------------------------------------->
+
+<!--------------------------------------------------------------------------->
+<!--- TEMPLATE
+<div class="paper" id="paperId">
+  <img class="paper" title="X" src="images/X.png" />
+  <p><b id="papertitle">Title</b> <br/>
+  <strong>Shubham Tulsiani</strong>, Richard Tucker, Noah Snavely<br />
+  ECCV, 2018<br />
+  <a href="link">pdf</a>  &nbsp <a href="page">project page</a>  &nbsp <a href="javascript:toggleblock('paperIdAbs')">abstract</a> &nbsp <a href="javascript:toggleblock('paperIdBib')">bibtex</a>  &nbsp <a href="codelink">code</a> </p>
+  <div class="papermeta" id="paperIdMeta">
+  <em id="paperIdAbs">ABSTRACT</em></p>
+  <pre xml:space="preserve" id="paperIdBib" style="font-size: 12px">
+@inProceedings{
+BIBTEX
+}</pre></td>
+  <script language="javascript" type="text/javascript" xml:space="preserve">
+     hideblock('paperIdAbs');
+     hideblock('paperIdBib');
+  </script>
+  </div>
+</div>
+-->
+<!--------------------------------------------------------------------------->
+
+</div>
+
+<div class="section">
+<h2> Teaching</h2>
+
+<div class="paper" id="teaching">
+<table width="100%" valign="top" border="0" cellspacing="0" cellpadding="20">
+  <tr>
+    <td width="200px" valign="top"><img src="figures/compPhoto.jpg" width="68" height="99" align="left" /><img src="figures/cs188.png" width="73" height="100" align="left" /></td>
+
+    <td  style="width: 700px; vertical-align: top">
+      <p> <a href="http://inst.eecs.berkeley.edu/~cs188/fa10/announcements.html">
+      </a><a href="http://inst.eecs.berkeley.edu/~cs194-26/fa14/"><b id="papertitle3">Image Manipulation and Computational Photography (CS194-26)</b></a><br />
+      <heading>Fall 2014 (GSI)</heading>
+    </p>
+    <p><br/></p>
+      <p><a href="https://edge.edx.org/courses/BerkeleyX/CS188x-SP15/SP15/info"><b id="papertitle2">Introduction to Artificial Intelligence (CS188)</b></a><br />
+        <heading>Spring 2015 (GSI)</heading>
+      </p>
+      <p><br/></p>
+    </td>
+  </tr>
+</table>
+</div>
+</div>
+
+</body>
+</html>
