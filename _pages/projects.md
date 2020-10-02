@@ -5,7 +5,7 @@ permalink: /projects/
 author_profile: true
 ---
 
-# Wayne State University
+## Wayne State University
 
 <div align="justify">Project 1 - I am currently involved in a collaborative project with Children's Hospital of Michigan in Detroit, MI. 
 I am working on application of deep learning and machine learning algorithms on neuro- imaging data. 
@@ -18,7 +18,7 @@ which would help the neurosurgeon perform accurate resective surgeries. The stor
 trained deep learning algorithms are used in identifying the regions of the brain that cause the epileptic seizures,
 by leveraging gradient-based saliency and class activation maps.</div>
 <br>
-# University of Massachusetts Medical School
+## University of Massachusetts Medical School
 
 <div align="justify">I worked with images obtained from Single Photon Emission Computed Tomography (SPECT) systems and developed machine learning
 and image processing algorithms to improve image quality by efficient design of Multipinhole (MPH) Collimator in the gamma 
