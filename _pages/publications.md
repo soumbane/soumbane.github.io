@@ -1,79 +1,17 @@
 ---
 layout: archive
-title: ""
+title: "Publications"
 permalink: /publications/
 author_profile: true
 ---
 
-<a href="https://scholar.google.com/citations?hl=en&user=xaY1UPgAAAAJ">Google Scholar</a>
+{% if author.googlescholar %}
+  You can also find my publications on my <u><a href="https://scholar.google.com/citations?hl=en&user=xaY1UPgAAAAJ">Google Scholar</a></u> profile.
+{% endif %}
 
-## JOURNAL PUBLICATIONS (IF – Impact Factor)
+{% include base_path %}
 
-<div align="justify">[1] Deep Relational Reasoning for the Prediction of Language Impairment and Postoperative Seizure Outcome Using Preoperative DWI Connectome Data of Children with Focal Epilepsy - Banerjee, S., Dong, M., Lee, M.H., O’Hara, N., Juhasz, C., Asano, E., Jeong, J.W., IEEE transactions on medical imaging (IF: 6.685), 2020. (Under Review).</div>
-
-<div align="justify">[2] Simulations of a multipinhole SPECT collimator for clinical dopamine transporter (DAT) imaging - Könik, A., De Beenhouwer, J., Mukherjee, J.M., Kalluri, K., Banerjee, S., Zeraatkar, N., Fromme, T. and King, M.A., IEEE transactions on radiation and plasma medical sciences, 2(5), pp.444-451, 2018. [<a href="http://soumbane.github.io/files/Simulations_Multipinhole.pdf">PDF</a>]</div>
-<br>
-
-## SELECTED CONFERENCE PUBLICATIONS
-
-<div align="justify">[1] Prediction of Language Impairments in Children Using Deep Relational Reasoning with DWI Data (Oral) - Banerjee, S., Dong, M., Lee, M.H., O'Hara, N., Asano, E. and Jeong, J.W., IEEE 17th International Symposium on Biomedical Imaging (ISBI) (pp. 1680-1684), 2020. [<a href="http://soumbane.github.io/files/Prediction_of_Language_Impairments.pdf">PDF</a>]</div> 
-
----
-title: 'Prediction of Language Impairments in Children Using Deep Relational Reasoning with DWI Data'
-publish: true
-author: Soumyanil Banerjee
-authors: <i>Banerjee, S.</i>, Dong, M., Lee, M.H., O'Hara, N., Asano, E. and Jeong, J.W.
-venue: IEEE 17th International Symposium on Biomedical Imaging (ISBI)
-link: [<a href="http://soumbane.github.io/files/Prediction_of_Language_Impairments.pdf">PDF</a>]</div>
-date: April, 2020.
-tags:
-  - Graph Networks
-  - Deep Learning
-  
-thumbnail-img: files/ISBI_2020.png
----
-
-<div align="justify">This paper proposes a new deep learning model using relational
-reasoning with diffusion-weighted imaging (DWI)
-data. We investigate how effectively and comprehensively
-DWI tractography-based connectome predicts the impairment
-of expressive and receptive language ability in individual
-children with focal epilepsy (FE). The proposed model
-constitutes a combination of a dilated convolutional neural
-network (CNN) and a relation network (RN), with the latter
-being applied to the dependencies of axonal connections
-across cortical regions in the whole brain. The presented
-results from 51 FE children demonstrate that the proposed
-model outperforms other existing state-of-the-art algorithms
-to predict language abilities without depending on connectome
-densities, with average improvement of up to 96:2%
-and 83:8% in expressive and receptive language prediction,
-respectively.</div> 
-
-~~~BibTex
-Please site the paper as follows:
-
-@inproceedings{banerjee2020prediction,
-  title={Prediction of Language Impairments in Children Using Deep Relational Reasoning with DWI Data},
-  author={Banerjee, Soumyanil and Dong, Ming and Lee, Min-Hee and O'Hara, Nolan and Asano, Eishi and Jeong, Jeong-Won},
-  booktitle={2020 IEEE 17th International Symposium on Biomedical Imaging (ISBI)},
-  pages={1680--1684},
-  year={2020},
-  organization={IEEE}
-}
-~~~
-
-<div align="justify">[2] Point spread function modeling for pinhole SPECT imaging which accounts for aperture size and orientation (SNMMI Conference) (Oral) - Banerjee, S., Auer, B., Zeraatkar, N., Konik, A., Kalluri, K., Zubal, G., Furenlid, L. and King, M., Journal of Nuclear Medicine, 59(supplement 1), pp.360-360, 2018. [<a href="http://jnm.snmjournals.org/content/59/supplement_1/360">PDF</a>]</div>
-
-<div align="justify">[3] Preliminary investigation of a Monte Carlo-based system matrix approach for quantitative clinical brain 123 I SPECT imaging - Auer, B., Zeraatkar, N., Banerjee, S., Goding, J.C., Furenlid, L.R. and King, M.A., IEEE Nuclear Science Symposium and Medical Imaging Conference Proceedings (NSS/MIC) (pp. 1-2), 2018. [<a href="http://soumbane.github.io/files/Monte_Carlo-based_system_matrix.pdf">PDF</a>]</div>
-
-<div align="justify">[4] Preliminary investigation to improve point spread function modeling for a multi-pinhole SPECT camera - Banerjee, S., Konik, A., Mukherjee, J.M., Kalluri, K.S., Goding, J.C., Caucci, L., Zubal, G.I., Furenlid, L.R. and King, M.A., IEEE Nuclear Science Symposium and Medical Imaging Conference (NSS/MIC) (pp. 1-2), 2017. [<a href="http://soumbane.github.io/files/Improve_PSF_Modeling.pdf">PDF</a>]</div>
-
-<div align="justify">[5] Preliminary investigation of axial and angular sampling in multi-pinhole AdaptiSPECT-C with XCAT phantoms - Zeraatkar, N., Kalluri, K.S., Könik, A., Mukherjee, J.M., Dey, J., Goding, J.C., He, Y., Fromme, T.J., Auer, B., Banerjee, S., Mok, G., et. al. IEEE Nuclear Science Symposium and Medical Imaging Conference (NSS/MIC) (pp. 1-3), 2017. [<a href="http://soumbane.github.io/files/Axial_and_Angular_Sampling.pdf">PDF</a>]</div>
-
-<div align="justify">[6] Preliminary investigation of multiplexed pinholes with circular apertures and elliptical ports for I-123 DAT imaging - Könik, A., Fromme, T., De Beenhouwer, J., He, Y., Banerjee, S., Kalluri, K., Furenlid, L.R. and King, M.A., IEEE Nuclear Science Symposium and Medical Imaging Conference (NSS/MIC) (pp. 1-3), 2017. [<a href="http://soumbane.github.io/files/Multiplexed_Pinholes.pdf">PDF</a>]</div>
-
-<div align="justify">[7] Stepwise linear regression modeling of the point spread functions of a multi-pinhole SPECT camera for I-123 DaTscan imaging - Mukherjee, J.M., Banerjee, S., Konik, A., Kallur, K.S., Furenlid, L.R. and King, M.A., IEEE Nuclear Science Symposium, Medical Imaging Conference and Room-Temperature Semiconductor Detector Workshop (NSS/MIC/RTSD) (pp. 1-3), 2016. [<a href="http://soumbane.github.io/files/Stepwise_linear_regression.pdf">PDF</a>]</div>
-
-<div align="justify">[8] Optimization of pinhole aperture size of a combined MPH/fanbeam SPECT system for I-123 DAT imaging - Könik, A., Mukherjee, J.M., Banerjee, S., De Beenhouwer, J., Zubal, G.I. and King, M.A., IEEE Nuclear Science Symposium, Medical Imaging Conference and Room-Temperature Semiconductor Detector Workshop (NSS/MIC/RTSD) (pp. 1-2), 2016. [<a href="http://soumbane.github.io/files/Optimization_pinhole.pdf">PDF</a>]</div>
+{% for post in site.publications reversed %}
+  {% include archive-single.html %}
+{% endfor %}
 
