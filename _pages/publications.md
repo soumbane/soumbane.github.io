@@ -17,42 +17,6 @@ author_profile: true
 ## SELECTED CONFERENCE PUBLICATIONS
 
 <div align="justify">[1] Prediction of Language Impairments in Children Using Deep Relational Reasoning with DWI Data (Oral) - Banerjee, S., Dong, M., Lee, M.H., O'Hara, N., Asano, E. and Jeong, J.W., IEEE 17th International Symposium on Biomedical Imaging (ISBI) (pp. 1680-1684), 2020. [<a href="http://soumbane.github.io/files/Prediction_of_Language_Impairments.pdf">PDF</a>]</div> 
-![alt text](https://github.com/soumbane/soumbane.github.io/blob/master/images/ISBI_2020.png)
-<details>
-<summary>
-<i>Abstract</i>
-</summary>
-<p><div align="justify">This paper proposes a new deep learning model using relational
-reasoning with diffusion-weighted imaging (DWI)
-data. We investigate how effectively and comprehensively
-DWI tractography-based connectome predicts the impairment
-of expressive and receptive language ability in individual
-children with focal epilepsy (FE). The proposed model
-constitutes a combination of a dilated convolutional neural
-network (CNN) and a relation network (RN), with the latter
-being applied to the dependencies of axonal connections
-across cortical regions in the whole brain. The presented
-results from 51 FE children demonstrate that the proposed
-model outperforms other existing state-of-the-art algorithms
-to predict language abilities without depending on connectome
-densities, with average improvement of up to 96:2%
-and 83:8% in expressive and receptive language prediction,
-respectively.</p></div>
-</details>
-
-<details>
-<summary>
-<i>BibTex</i>
-</summary>
-<p><div align="justify">@inproceedings{banerjee2020prediction,<br>
-  title={Prediction of Language Impairments in Children Using Deep Relational Reasoning with DWI Data},<br>
-  author={Banerjee, Soumyanil and Dong, Ming and Lee, Min-Hee and O'Hara, Nolan and Asano, Eishi and Jeong, Jeong-Won},<br>
-  booktitle={2020 IEEE 17th International Symposium on Biomedical Imaging (ISBI)},<br>
-  pages={1680--1684},<br>
-  year={2020},<br>
-  organization={IEEE}<br>
-}</p></div>
-</details>
 
 <div align="justify">[2] Point spread function modeling for pinhole SPECT imaging which accounts for aperture size and orientation (SNMMI Conference) (Oral) - Banerjee, S., Auer, B., Zeraatkar, N., Konik, A., Kalluri, K., Zubal, G., Furenlid, L. and King, M., Journal of Nuclear Medicine, 59(supplement 1), pp.360-360, 2018. [<a href="http://jnm.snmjournals.org/content/59/supplement_1/360">PDF</a>]</div>
 
