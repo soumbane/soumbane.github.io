@@ -17,6 +17,7 @@ redirect_from:
 
 ## <font color = "red">Latest News and Updates !!</font>
 
+- <div align="justify">Paper on "Deep Relational Reasoning for the Prediction ofLanguage Impairment and Postoperative SeizureOutcome Using Preoperative DWI ConnectomeData of Children with Focal Epilepsy" accepted for publication in IEEE Transactions on Medical Imaging (TMI) - Impact Factor: 6.685.</div>
 - <div align="justify">Invited to serve on the technical program committee of <a href="https://conferences.computer.org/chase2020/index.html">Conference on Connected Health: Applications, Systems and Engineering Technologies</a> (IEEE/ACM CHASE), 2020.</div>
 - <div align="justify">Invited to serve on the program committee of <a href="https://homepages.uc.edu/~niunn/IRI20/index.html">Conference on Information Reuse and Integration for Data Science</a> (IEEE IRI), 2020.</div>
 - <div align="justify">Received Conference Travel Award, IEEE ISBI, 2020.</div>
